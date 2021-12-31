@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}Frequently Asked Questions{% endblock %}
+
+ {% block scripts %}
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+ {% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static' ,filename='css/faq.css' )}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+{% from "includes/_formHelper.html" import render_field %}
+<h1 class="display-4">Frequently Asked Questions</h1>
+<div>
+    {% if session['user'] != null %}
+        {%if session['user-role'] == "Admin"%}
+         {% if count == 0 %}
+            <p>There are no question.</p>
+            {% elif count == 1 %}
+            <p>There is 1 question.</p>
+            {% else %}
+            <p>There are {{ count }} questions.</p>
+            {% endif %}
+        <a href="{{url_for('monthly_qn')}}" class="btn btn-primary">Monthly Question</a>
+        {%endif%}
+    {%endif%}
+
+
+    <form class='example' method='POST' action="">
+        {{ render_field(form.search, class='search') }}
+        <button type="submit">
+            <i class="fa fa-search"></i>
+        </button>
+        {% if session['user'] != null %}
+             {%if session['user-role'] == "Admin"%}
+
+                <a href="/faq" class="add_qns">+</a>
+            {%endif%}
+        {% endif %}
+    </form>
+    {% for question in qn_list %}
+
+        <button class="collapsible">{{ question.get_question() }}</button>
+        <div class="content">
+          <p>Date of answer: {{ question.get_date() }}</p>
+          <p>{{ question.get_answer() }}</p>
+            {% if session['user'] != null %}
+             {%if session['user-role'] == "Admin"%}
+                <p><a href="/updateQns/{{ question.get_qns_id() }}" class="btn btn-warning">Update</a>
+               <form action="{{url_for('delete_qns', id=question.get_qns_id())}}"  method="POST">
+                <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete the Question {{question.get_question()}} and the Answer {{question.get_answer()}} answer?')">
+               </form>
+
+              {%endif%}
+            {%endif%}
+
+
+          </p>
+        </div>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+{% block title %}NYP - Admin | Add Doctor{% endblock %}
+{%block content%}
+{% from "includes/_formhelper.html" import render_field %}
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+
+.container{
+    max-width:700px;
+    width:100%;
+    background:#F6F6F6;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title{
+  font-size:25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container .title::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom:0;
+  height: 3px;
+  width: 131px;
+  background: linear-gradient(to right, #2196f3, #f44336);
+}
+
+.container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:20px 0 12px 0 ;
+
+}
+
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .user-details .input-box label{
+  display: block;
+  font-weight: 500;
+  margin-bottom:5px;
+}
+
+form .user-details .input-box select{
+  height: 45px;
+  width:100%;
+  outline:none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px ;
+  transition: all 0.3s ease;
+}
+
+
+form span{
+  margin-top: 20px;
+  font-weight:700;
+
+}
+
+.user-details .input-box input{
+  height: 45px;
+  width:100%;
+  outline:none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px ;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus{
+  border-color: #2196f3;
+}
+
+
+form .button{
+  height: 45px;
+  margin: 45px 0;
+}
+
+form .button input{
+  height: 100%;
+  width: 100%;
+  outline:none;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color:#7BCBFD ;
+}
+
+form .button input:hover{
+  background:#3FDDFD ;
+}
+
+</style>
+<div class="container">
+  <div class="title">Add Doctor</div>
+    <form autocomplete="off" method="POST" action="{{url_for('add_doctor')}}">
+      <div class="user-details">
+   <div class="form-group">
+    {{ render_field(form.NRIC, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.FirstName, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.LastName, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.Gender, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.Dob, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.Email, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.Password, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.Confirm, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.URL, class="form-control") }}
+  </div>
+
+  <div class="form-group">
+    {{ render_field(form.specialization, class="form-control") }}
+  </div>
+
+      </div>
+<input type="submit" value="Register" class="btn btn-primary"/>
+</form>
+</div>
+
+
+{%endblock%}

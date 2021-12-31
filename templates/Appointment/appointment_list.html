@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}NYP - Appointments{% endblock %}
+
+{% block content %}
+<h1 class="display-4">Appointment List</h1>
+{%if session['user-role'] != "Admin" %}
+<p>You have {{number}} upcoming appointments</p>
+
+<p style="font-weight:bold;">For E-Doctor Consultation, please press the "Click" Button on your respective Appointments 5 minutes before your appoinment.
+    <br>
+    For users that has does not have Zoom Installed, you can use the browser Zoom to Consult our Doctors.</p>{%endif%}
+<div>
+    {%if session['user-role'] == "Patient" %}
+  <a class="btn btn-primary" href="{{url_for('add_appointment')}}">Add Appointment</a>
+    {%endif%}
+     {%if session['user-role'] == "Doctor" %}
+    <a class="btn btn-primary" href="{{url_for('doc_add_appointment')}}">Add Appointment</a>
+    {%endif%}
+  <a class="btn btn-info" href="{{url_for('appointment_hist')}}">Appointment History</a>
+    {%if session['user-role'] == "Admin" %}
+    <a class="btn btn-info" href="{{url_for('appointment_summary')}}">Appointment Summary</a>
+    {%endif%}
+</div>
+<div>
+
+  {% for months in period %}
+  <table class="table table-hover">
+    <thead><h2>{{months}}</h2>
+    <tr>
+        <th>Department</th>
+        <th>Patient</th>
+        <th>Doctor</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Venue</th>
+        {%if session['user-role'] != "Admin"%}
+        <th>Link</th>
+        {%endif%}
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+  {% for appointments in period[months] %}
+      <tr>
+        <td>{{ appointments.get_department() }}</td>
+        <td>{{ appointments.get_patient() }}</td>
+        <td>{{ appointments.get_doctor() }}</td>
+        <td>{{ appointments.get_date() }}</td>
+        <td>{{ appointments.get_time() }}</td>
+        <td>{{ appointments.get_venue() }}</td>
+        {% if appointments.get_venue() == "Visit" and session['user-role'] != "Admin"%}
+        <td></td>
+        {%endif%}
+        {% if appointments.get_venue() == "E-Doctor" and session['user-role'] != "Admin" %}
+        <td><a href="https://{{appointments.get_url() }}" class="btn btn-primary">Click</a></td>
+        {%endif%}
+      <td><a href="{{url_for('update_appointment', id=appointments.get_id())}}" class="btn btn-warning">Update</a></td>
+        <td>
+          <form action="{{url_for('delete_appointment', id=appointments.get_id())}}" method="POST">
+            <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this appointment? ');">
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+{%endfor%}
+
+    </tbody>
+  </table>
+
+</div>
+
+{% endblock %}

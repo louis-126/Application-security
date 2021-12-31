@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Shopping Cart{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+<div class="search-container">
+  <form class="search-form" method="post">
+    {{ render_field(form.search, class="search-bar") }}
+    <button type="submit">
+      <i class="fa fa-search" style="font-size: 23px;"></i>
+    </button>
+  </form>
+      <a href="/shoppingCart" class="cart-button">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fshopping-cart-icon-transparent-20.png&f=1&nofb=1" height="35px">
+      </a>
+  {% if session['user'] != null %}
+    {% if session['user-role'] == "Admin" %}
+      <a class="create-button" href="/createItem"> + </a>
+      <a class="inventory-button" href="/inventory"> i </a>
+        <a class="dashboard-button" href="/dashboard"><img class="dashboard-img" src="https://cdn4.iconfinder.com/data/icons/tupix-1/30/graph-512.png"></a>
+    {% endif %}
+  {% endif %}
+</div>
+
+<div class="sc-container">
+  <div class="sc-header">
+    <h2 class="sc-head-title">Purchase History</h2>
+  </div>
+  {% for cart in cart_list %}
+  <div class="cart-container">
+      <div class="ph-cart-id-container">
+        <p class="ph-cart-id">Cart ID: {{ cart.get_id()}}</p>
+      </div>
+      {% for item in cart.get_cart() %}
+        <div class="sc-item-container">
+          <div class="sc-item-picture-container">
+            <img class="sc-item-picture" src="{{ item.get_item_picture() }}">
+          </div>
+          <div class="sc-text-container">
+            <div class="sc-item-name-container">
+              <p class="sc-item-name">{{ item.get_item_name() }}</p>
+            </div>
+            <div class="sc-item-price-container">
+              <p class="sc-item-price">Qty: {{ item.get_item_want() }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <div class="ph-button-container">
+        <form action="{{url_for('specific_cart', id=cart.get_id())}}" method="POST">
+          <button class="ph-get-cart" type="submit">Get Cart</button>
+        </form>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<div class="sc-checkout-container">
+  <form method="POST">
+    <p class="sc-subtotal-price-text">Show Last:
+      {{ render_field(form.history) }}
+    </p>
+    <button type="submit" class="sc-clear-cart">
+      Filter
+    </button>
+  </form>
+</div>
+{% endblock %}
+

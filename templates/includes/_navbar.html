@@ -1,0 +1,83 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-white" >
+  <!-- Brand -->
+  <a class="navbar-brand" href="/"><img src="https://media-exp1.licdn.com/dms/image/C510BAQHwImgI6QnJLw/company-logo_200_200/0/1536892103042?e=2159024400&v=beta&t=mqsU-edXGh3QwcADEFMY9e4iqOUc0RnWotsiIFGmu80" width="50"></a>
+
+  <!-- Links -->
+   {%if session['user'] != null %}
+
+  <ul class="navbar-nav ml-auto">
+       <li class="nav-item dropdown" style="align-items:left;">
+      <a class="nav-link dropdown-toggle fa fa-fw fa-user" style="margin-top:5px;width:50px;" id="navbardrop" data-toggle="dropdown">
+      </a>
+      <div class="dropdown-content" style="position:absolute; height: 230px; width: 200px;">
+      <h2>Hi! <br>{{session['user']}}</h2>
+        <div style ="font-size:30px; align-items:center;">
+          <i class="fa fa-fw fa-user fa-30px" style="align-items:center;margin-left:80px;"></i></div>
+          <a class="dropdown-item" style="text-align:center;" href="{{url_for('profile')}}">Profile</a>
+          <a class="dropdown-item"style="text-align:center;" href="{{url_for('logout')}}">Logout</a>
+      </div>
+    </li>
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('appointment')}}">Appointments</a>
+      </li>
+      
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('show_items')}}">Pharmacy</a>
+      </li>
+      {%if session['user-role'] == "Admin" %}
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('retrieve_applicants')}}">Retrieve Applicants</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('admin_all_users')}}">Show All Users</a>
+      </li>
+
+      <!-- New -->
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('log_monitoring')}}">Log Monitoring</a>
+      </li>
+
+      {%elif session['user-role'] == "Patient"%}
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('create_applicant')}}">Application Form</a>
+      </li>
+      {%endif %}
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('contactus')}}">Contact Us</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="{{url_for('retrieve_qns')}}">FAQ</a>
+      </li>
+      <li class="nav-item">
+              <a class="nav-link" href="{{url_for('retrieve_review')}}">Reviews</a>
+      </li>
+
+      {%else%}
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('login')}}">Appointments</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('show_items')}}">Pharmacy</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('create_applicant')}}">Application Form</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('contactus')}}">Contact Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('retrieve_qns')}}">FAQ</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('retrieve_review')}}">Reviews</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('login')}}">Login</a>
+          </li>
+      </ul>
+      {%endif%}
+
+  </ul>
+</nav>
+

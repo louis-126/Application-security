@@ -1,0 +1,808 @@
+7-14 21:53:15,166 : __main__ : ERROR : 127.0.0.1 : T0392511G - Patient T0392511G failed to log in: Incorrect password
+---
+2021-07-16 17:45:28,402 : __main__ : ERROR : 127.0.0.1 : T0392511G - Patient T0392511G failed to log in: Incorrect password
+2021-07-16 18:31:38,472 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 18:31:48,120 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 18:31:55,324 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 18:32:01,260 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 22:07:32,925 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 22:24:58,484 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 22:28:24,056 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 22:33:36,109 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-07-16 22:47:55,366 : __main__ : INFO : 127.0.0.1 : T5739128U - User T5739128U has created the item: awd (ID No: 61)
+2021-07-16 22:52:56,878 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: we (ID No: 62)
+2021-07-16 23:11:16,575 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item: we (ID No: 62)
+2021-07-16 23:11:39,879 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item: solol (ID No: 62)
+2021-07-16 23:11:48,569 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item: solol (ID No: 62)
+2021-07-16 23:13:13,249 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item: Tissue paper (ID No: 23)
+2021-07-16 23:41:22,400 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item: (ID No: 20)
+2021-07-16 23:42:27,587 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: we (ID No: 63)
+2021-07-16 23:42:32,539 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item: (ID No: 63)
+2021-07-16 23:44:14,388 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: awewe (ID No: 64)
+2021-07-16 23:44:16,006 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item: ID No: 64 (Item Numbers are not reused)
+2021-07-16 23:46:22,252 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: wae (ID No: 65)
+2021-07-16 23:47:16,298 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: awdw (ID No: 66)
+2021-07-16 23:47:19,321 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item: ID No: 66 (Item Numbers are not reused)
+2021-07-16 23:48:34,086 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: drgd (ID No: 67)
+2021-07-16 23:48:35,772 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item ID No: 67 (Item Numbers are not reused)
+---
+2021-07-17 20:45:49,121 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: Fish Food (ID No: 68)
+2021-07-17 20:53:32,464 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item Seeded seed to: Fish food (ID No: 68)
+2021-07-17 20:53:56,131 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item ID No: 68 (Item Numbers are not reused)
+2021-07-17 20:57:21,684 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: Foodie (ID No: 69)
+2021-07-17 20:57:42,967 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item Foodie to: Fooded (ID No: 69)
+2021-07-17 21:09:46,309 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: Seed (ID No: 70)
+2021-07-17 21:10:12,507 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item Seed to: Nice Seed (ID No: 70)
+2021-07-17 21:10:21,577 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item ID No: 70 (Item Numbers are not reused)
+2021-07-17 21:43:13,950 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: Mice (ID No: 71)
+2021-07-17 21:43:32,048 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item Mice to: Nice (ID No: 71)
+2021-07-17 21:46:44,995 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: awdaw (ID No: 72)
+2021-07-17 21:46:46,478 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item: ID No: 72 (Item Numbers are not reused)
+2021-07-17 21:48:23,925 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has created the item: Mouse (ID No: 73)
+2021-07-17 21:50:09,282 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has updated the item Mouse to: Moused (ID No: 73)
+2021-07-17 21:50:16,777 : __main__ : INFO : 127.0.0.1 : T5739128U - Admin T5739128U has deleted the item: ID No: 73 (Item Numbers are not reused)
+2021-07-17 22:04:17,125 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T1234567B failed to log in: Incorrect password
+2021-07-17 22:06:35,974 : __main__ : INFO : 127.0.0.1 : T1234567E - New account (Username: T1234567E, Role: Patient) has been registered
+2021-07-17 22:16:45,703 : __main__ : ERROR : 127.0.0.1 : T1234567B - Username of T1234567B tried to re-register
+2021-07-17 22:30:11,208 : __main__ : ERROR : 127.0.0.1 : T5739128U - Admin T1234567B failed to log in: Incorrect password
+2021-07-17 23:04:36,754 : __main__ : INFO : 127.0.0.1 : T1234567B - Patient T1234567B has changed their password
+2021-07-17 23:06:17,431 : __main__ : INFO : 127.0.0.1 : T1234567B - Patient T1234567B changed their password
+---
+2021-07-17 23:11:33,327 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B failed to log in: Incorrect password
+2021-07-17 23:13:34,279 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B failed to log in: Incorrect password
+2021-07-17 23:13:46,796 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B failed to log in: Incorrect password
+2021-07-17 23:13:57,238 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B failed to log in: Incorrect password
+2021-07-17 23:21:36,833 : __main__ : INFO     : 127.0.0.1       : T1234567B - Patient T1234567B changed their password
+2021-07-18 00:04:52,600 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has updated information of account T1234567B
+2021-07-18 00:08:14,378 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to update the information of account T1234567B
+2021-07-18 00:09:12,013 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to update the information of account T1234567B
+2021-07-18 00:09:41,297 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to update the information of account T1234567B
+2021-07-18 00:11:35,041 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to update the information of account T1234567B
+2021-07-18 00:16:54,589 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to update the information of account T1234567B
+2021-07-18 00:19:53,873 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B attempted to access the -all users- update page
+2021-07-18 00:20:35,189 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B attempted to access the -all users- admin functionality update page
+2021-07-18 00:21:10,291 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to update the information of account T1234567B
+2021-07-18 00:22:09,225 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use -admin update- admin functionality to update the information of account T1234567B
+2021-07-18 00:31:57,992 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B attempted to access the -all users- admin functionality update page
+2021-07-18 00:35:32,371 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use the -admin update- admin functionality to update the information of account T1234567C
+2021-07-18 00:36:04,088 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use -admin delete- admin functionality to delete account T1234567C
+2021-07-18 00:42:48,642 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 00:43:02,854 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567E
+2021-07-18 00:44:09,236 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 00:44:14,963 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567E
+2021-07-18 00:45:43,895 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567E
+2021-07-18 00:45:52,082 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567E
+2021-07-18 00:46:10,073 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567D
+2021-07-18 00:46:18,035 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567D
+2021-07-18 00:48:27,860 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 00:48:32,002 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 00:50:18,939 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 00:52:31,000 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 00:53:05,995 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 16:56:27,000 : __main__ : INFO     : 127.0.0.1       : T1234567B - New account (Username: T1234567B, Role: Patient) has been registered
+2021-07-18 16:57:14,069 : __main__ : INFO     : 127.0.0.1       : T1234567C - New account (Username: T1234567C, Role: Patient) has been registered
+2021-07-18 16:57:45,698 : __main__ : INFO     : 127.0.0.1       : T1234567D - New account (Username: T1234567D, Role: Patient) has been registered
+2021-07-18 16:58:43,838 : __main__ : INFO     : 127.0.0.1       : T1234567E - New account (Username: T1234567E, Role: Patient) has been registered
+2021-07-18 16:59:40,100 : __main__ : INFO     : 127.0.0.1       : T1234567F - New account (Username: T1234567F, Role: Patient) has been registered
+2021-07-18 17:00:39,046 : __main__ : INFO     : 127.0.0.1       : T1234567G - New account (Username: T1234567G, Role: Patient) has been registered
+2021-07-18 17:01:47,147 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:02:08,355 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567B
+2021-07-18 17:02:22,169 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567B
+2021-07-18 17:07:30,421 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567B
+2021-07-18 17:08:32,636 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567B
+2021-07-18 17:08:42,472 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567B
+2021-07-18 17:08:45,137 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:09:04,696 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567G
+2021-07-18 17:09:32,614 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567G
+2021-07-18 17:21:25,119 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:21:26,587 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567G
+2021-07-18 17:22:14,057 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567G
+2021-07-18 17:22:59,729 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567G
+2021-07-18 17:23:11,342 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:24:29,748 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U used the -add doctor- admin functionality to add T1234568C to a doctor role
+2021-07-18 17:26:04,730 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use the -add doctor- admin functionality to add a doctor
+2021-07-18 17:28:44,732 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use the -admin delete- admin functionality to delete account T1234567C
+2021-07-18 17:29:42,281 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use the -admin delete- admin functionality to delete account T1234567D
+2021-07-18 17:31:09,960 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:31:12,429 : __main__ : ERROR    : 127.0.0.1       : T5739128U - Admin T5739128U has used the -admin delete- admin functionality to delete account T1234567F
+2021-07-18 17:31:12,436 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:31:53,441 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -admin delete- admin functionality to delete account T1234567E
+2021-07-18 17:31:53,449 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:44:46,284 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:44:49,611 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:44:51,469 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 17:45:03,862 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 18:02:32,474 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-18 18:02:34,806 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -admin delete- admin functionality to delete account T1234567D
+2021-07-18 18:02:34,813 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 18:01:29,101 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 18:03:46,513 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 18:05:02,126 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567C
+2021-07-19 18:05:14,833 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567C
+2021-07-19 18:06:32,579 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 18:06:43,530 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used -admin update- admin functionality to update the information of account T1234567C
+2021-07-19 18:06:46,933 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -admin delete- admin functionality to delete account T1234567C
+2021-07-19 18:06:46,938 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 19:59:40,676 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 19:59:44,324 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 23:33:16,788 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:35:27,042 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:43:13,825 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:43:18,600 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 23:44:18,590 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:44:19,959 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:46:18,079 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:46:26,184 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:47:15,570 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 23:48:49,287 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:49:13,600 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-07-19 23:51:14,709 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:52:53,282 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:53:03,773 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:53:53,537 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:53:55,988 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:56:41,605 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-19 23:56:42,791 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:02:00,397 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use the -Log Monitoring- admin functionality
+2021-07-20 00:02:29,723 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use the -Log Monitoring- admin functionality
+2021-07-20 00:03:09,194 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:04:50,589 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:05:41,299 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:05:41,440 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:05:44,052 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:05:45,558 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:05:46,373 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:05:49,716 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:05:55,345 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:08:14,122 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:08:33,780 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:08:35,584 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:11:11,972 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:11:14,465 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:11:15,323 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:13:49,275 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:14:25,356 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:19:48,019 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:19:49,804 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:20:07,935 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:20:10,100 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:20:13,423 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:21:18,266 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:21:25,254 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:23:44,408 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:24:51,879 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:24:56,543 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:25:03,408 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:26:47,288 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:26:53,539 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:27:09,006 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:27:42,986 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:27:46,444 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:27:58,954 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:28:02,238 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:28:06,387 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:28:10,435 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:31:27,218 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:34:42,090 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:34:44,474 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:34:46,910 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:34:50,264 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:34:59,680 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:35:01,092 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:35:40,508 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:36:14,896 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:38:58,611 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:39:02,335 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:39:05,670 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:39:08,669 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:45:28,740 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:46:50,913 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:46:54,538 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:46:57,891 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:50:29,304 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:50:31,291 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:50:38,370 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:50:40,506 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:50:42,246 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:50:44,162 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:50:58,340 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:52:32,545 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:52:35,195 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:52:39,366 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:52:42,809 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:54:13,667 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:54:18,101 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:54:26,728 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:54:26,965 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:54:30,832 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:54:39,763 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:54:46,811 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:54:51,379 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:54:55,727 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:54:59,324 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:55:02,287 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:56:35,150 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:56:44,938 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:56:50,226 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:56:53,686 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:56:57,442 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:57:28,337 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had error in -Log Monitoring- admin functionality
+2021-07-20 00:57:38,422 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:58:12,994 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:58:15,149 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:58:17,038 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:58:20,414 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 00:59:19,218 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:00:17,394 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:01:56,375 : __main__ : ERROR    : 127.0.0.1       : T1234567B - Patient T1234567B tried to use the -Log Monitoring- admin functionality
+2021-07-20 01:10:07,565 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:10:10,834 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:10:17,973 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:10:22,084 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:10:24,895 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:10:45,386 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:10:47,688 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:11:03,173 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality
+2021-07-20 01:11:08,700 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality
+2021-07-20 01:11:10,201 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:12:57,960 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:13:01,395 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:13:03,811 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:13:07,195 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:14:03,491 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:18:23,797 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:18:31,021 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:18:33,976 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:34:46,608 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-07-20 01:34:48,938 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-08-06 16:51:55,032 : __main__ : ERROR    : 127.0.0.1       : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-08-06 16:58:45,313 : __main__ : ERROR    : 127.0.0.1       : T5739128U - Admin T5739128U failed to log in: Incorrect password
+2021-08-11 20:16:18,063 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-08-11 20:16:28,542 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-08-11 20:16:30,720 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-08-11 20:18:30,208 : __main__ : INFO     : 127.0.0.1       : T1234567Z - New account (Username: T1234567Z, Role: Patient) has been registered
+2021-08-13 17:01:58,296 : __main__ : ERROR    : 127.0.0.1       : NIL       - User with IP address T1234567B failed to login into the account with username 127.0.0.1: Incorrect Password
+2021-08-13 17:02:34,250 : __main__ : ERROR    : 127.0.0.1       : NIL       - User with IP address 127.0.0.1 failed to login into the account with username T1234567B: Incorrect Password
+2021-08-13 17:03:01,540 : __main__ : ERROR    : 127.0.0.1       : T1234567B - User with IP address 127.0.0.1 failed to login into the account with username T1234567B: Incorrect Password
+2021-08-13 17:04:24,651 : __main__ : ERROR    : 127.0.0.1       : NIL       - User with IP address 127.0.0.1 tried to login into a invalid username (Account 123456789 does not exist)
+2021-08-13 17:05:08,068 : __main__ : ERROR    : 127.0.0.1       : NIL       - User with IP address 127.0.0.1 tried to login into an non-existent account (Account 123456789 does not exist)
+2021-08-13 17:43:37,149 : __main__ : ERROR    : 127.0.0.1       : T0392511G - Patient T0392511G tried to use the -add doctor- admin functionality
+2021-08-13 17:53:42,909 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:45,530 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:46,365 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:46,908 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:47,096 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:47,315 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:51,220 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:51,819 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:52,017 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:52,188 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:52,376 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:52,546 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:52,742 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:53,288 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:53:54,166 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:54:46,527 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:54:46,770 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:54:46,937 : __main__ : WARNING  : 127.0.0.1       : T5739128U - Admin T5739128U has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-13 17:55:21,050 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-08-13 18:00:49,557 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-08-13 18:00:57,736 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -admin delete- admin functionality to delete account T1234567B
+2021-08-13 18:00:57,741 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has accessed the -all users- admin functionality update page
+2021-08-13 18:02:00,778 : __main__ : INFO     : 127.0.0.1       : T1234567Z - New account (Username: T1234567Z, Role: Patient) has been registered
+2021-08-13 18:02:09,191 : __main__ : INFO     : 127.0.0.1       : NIL       - Confirmation token generated for email: Jeromeyeo2003@gmail.com
+2021-08-13 18:02:16,926 : __main__ : INFO     : 127.0.0.1       : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-13 18:02:32,782 : __main__ : INFO     : 127.0.0.1       : T1234567Z - User T1234567Z (email: Jeromeyeo2003@gmail.com) has successfully reset their password
+2021-08-13 18:28:53,417 : __main__ : INFO     : 127.0.0.1       : T5739128U - Admin T5739128U has used the -Log Monitoring- admin functionality
+2021-08-13 18:29:03,171 : __main__ : ERROR    : 127.0.0.1       : NIL       - User with IP address 127.0.0.1 tried to use the -Log Monitoring- admin functionality without logging in
+2021-08-13 18:48:18,918 : __main__ : INFO     : 127.0.0.1       : NIL       - Confirmation token generated for email: Jeromeyeo2003@gmail.com
+2021-08-13 18:48:30,244 : __main__ : ERROR    : 127.0.0.1       : NIL       - Token for "Jeromeyeo2003@gmail.com". has had its contents changed: Error - MAC check failed
+2021-08-13 18:48:49,206 : __main__ : INFO     : 127.0.0.1       : NIL       - Confirmation token generated for email: Jeromeyeo2003@gmail.com
+2021-08-13 18:48:56,973 : __main__ : INFO     : 127.0.0.1       : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-13 18:48:57,935 : __main__ : INFO     : 127.0.0.1       : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-13 19:01:09,351 : __main__ : ERROR    : 127.0.0.1       : NIL       - User with IP address 127.0.0.1 tried to login into an non-existent account (Account T1234567B does not exist)
+2021-08-13 19:01:33,402 : __main__ : ERROR    : 127.0.0.1       : T1234567Z - User with IP address 127.0.0.1 failed to login into the account with username T1234567Z: Incorrect Password
+2021-08-13 19:18:11,208 : __main__ : ERROR    : 127.0.0.1       : NIL       - User with IP address 127.0.0.1 tried to login into an non-existent account (Account T1234567B does not exist)
+2021-08-13 22:14:42,377 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-13 22:14:43,050 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-13 22:14:54,532 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to login into an non-existent account (Account T1111111F does not exist)
+2021-08-14 12:34:26,110 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 12:34:30,380 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 13:08:15,107 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 13:08:27,101 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 13:08:56,751 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 13:09:13,485 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has went over the rate limit allowed: Error 429
+2021-08-14 13:18:47,841 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:32:24,621 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:32:36,597 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 13:32:41,909 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:10,692 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:14,318 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:18,373 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:21,237 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:24,096 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:27,167 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:30,007 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:40,565 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:42:45,103 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:43:07,873 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:46:51,596 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 13:47:07,427 : __main__ : ERROR    : 222.164.164.206 : T2222222A - User with IP address 222.164.164.206 failed to login into the account with username T2222222A: Incorrect Password
+2021-08-14 13:47:19,072 : __main__ : ERROR    : 222.164.164.206 : T2222222A - User with IP address 222.164.164.206 failed to login into the account with username T2222222A: Incorrect Password
+2021-08-14 13:47:32,844 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:47:52,929 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:47:57,287 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:51:39,397 : Forms    : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 used invalid input in the Login Form: (Input Entered: 'OR 1=1--)
+2021-08-14 13:52:01,291 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 13:52:43,564 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 14:02:31,996 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 14:02:49,376 : __main__ : ERROR    : 222.164.164.206 : T2222222A - User with IP address 222.164.164.206 failed to login into the account with username T2222222A: Incorrect Password
+2021-08-14 14:09:34,745 : __main__ : ERROR    : 222.164.164.206 : T2222222A - User with IP address 222.164.164.206 failed to login into the account with username T2222222A: Incorrect Password
+2021-08-14 14:13:07,832 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 14:13:19,301 : __main__ : ERROR    : 222.164.164.206 : T2222222A - User with IP address 222.164.164.206 failed to login into the account with username T2222222A: Incorrect Password
+2021-08-14 14:19:56,877 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 14:22:10,247 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 14:22:25,341 : __main__ : ERROR    : 222.164.164.206 : T2222222A - User with IP address 222.164.164.206 failed to login into the account with username T2222222A: Incorrect Password
+2021-08-14 14:24:53,735 : __main__ : INFO     : 222.164.164.206 : T2222222A - Patient T2222222A changed their password
+2021-08-14 15:53:06,677 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 16:34:24,471 : __main__ : INFO     : 220.255.255.161 : T0319536D - New account (Username: T0319536D, Role: Patient) has been registered
+2021-08-14 17:02:51,697 : __main__ : INFO     : 220.255.255.161 : T1234987A - New account (Username: T1234987A, Role: Patient) has been registered
+2021-08-14 17:05:06,337 : __main__ : INFO     : 220.255.255.161 : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-14 17:05:44,374 : __main__ : INFO     : 220.255.255.161 : T1234987A - Admin T1234987A has used the -admin delete- admin functionality to delete account T5739128U 
+2021-08-14 17:05:45,463 : __main__ : INFO     : 220.255.255.161 : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-14 17:31:02,758 : __main__ : INFO     : 220.255.255.161 : T1234567A - New account (Username: T1234567A, Role: Patient) has been registered
+2021-08-14 17:31:42,762 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:31:47,945 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:32:42,132 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:32:43,564 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:33:23,601 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the Profile functionality without logging in
+2021-08-14 17:33:36,302 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the Profile functionality without logging in
+2021-08-14 17:35:06,529 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:37:14,530 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:37:32,605 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:44:03,978 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:48:14,262 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the appointment list functionality without logging in
+2021-08-14 17:53:37,239 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the Purchase Item functionality without logging in
+2021-08-14 19:08:41,871 : __main__ : INFO     : 220.255.255.161 : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-14 19:11:08,433 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 tried to use the -add doctor- admin functionality without logging in
+2021-08-14 19:11:16,182 : __main__ : INFO     : 220.255.255.161 : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-14 19:31:43,961 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 19:32:31,085 : __main__ : INFO     : 220.255.255.161 : T0319536D - New account (Username: T0319536D, Role: Patient) has been registered
+2021-08-14 19:32:49,344 : __main__ : INFO     : 220.255.255.161 : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-14 19:41:01,912 : __main__ : INFO     : 220.255.255.161 : T9876543A - New account (Username: T9876543A, Role: Patient) has been registered
+2021-08-14 19:49:43,406 : __main__ : INFO     : 220.255.255.161 : T2233445D - New account (Username: T2233445D, Role: Patient) has been registered
+2021-08-14 19:50:54,496 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 has went over the rate limit allowed: Error 429
+2021-08-14 19:50:56,131 : __main__ : ERROR    : 220.255.255.161 : NIL       - User with IP address 220.255.255.161 has went over the rate limit allowed: Error 429
+2021-08-14 21:30:32,107 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 21:31:03,516 : Forms    : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 used invalid input in the Login Form: (Input Entered: 'or 1=1--)
+2021-08-14 21:34:59,542 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 21:41:17,470 : __main__ : INFO     : 222.164.164.206 : T1111111A - New account (Username: T1111111A, Role: Patient) has been registered
+2021-08-14 22:05:49,531 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 22:05:51,291 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 22:17:13,746 : __main__ : INFO     : 222.164.164.206 : T1111111A - New account (Username: T1111111A, Role: Patient) has been registered
+2021-08-14 22:20:31,789 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 22:24:33,323 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-14 22:24:37,020 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 22:29:05,205 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 22:33:05,582 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the Profile functionality without logging in
+2021-08-14 22:39:41,966 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has went over the rate limit allowed: Error 429
+2021-08-14 22:39:45,875 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has went over the rate limit allowed: Error 429
+2021-08-14 22:47:15,835 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has went over the rate limit allowed: Error 429
+2021-08-14 22:48:16,212 : __main__ : INFO     : 222.164.164.206 : T1111111A - Patient T1111111A changed their password
+2021-08-15 18:09:32,870 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 18:14:33,944 : __main__ : INFO     : 222.164.164.206 : T2222222A - New account (Username: T2222222A, Role: Patient) has been registered
+2021-08-15 20:59:16,492 : __main__ : INFO     : 220.255.255.161 : NIL       - Confirmation token, HMAC, and Digital Signature generated for email's Jeromeyeo2003@gmail.com password reset
+2021-08-15 22:00:13,101 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:00:14,126 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:02:23,912 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:30:08,888 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:30:56,276 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-15 22:31:05,270 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-15 22:31:06,361 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-15 22:31:09,168 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-15 22:31:11,549 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-15 22:41:06,324 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:41:35,182 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-15 22:41:36,076 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-15 22:41:37,382 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-15 22:41:43,798 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-15 22:41:49,171 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has went over the rate limit allowed: Error 429
+2021-08-15 22:41:55,601 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has went over the rate limit allowed: Error 429
+2021-08-15 22:42:00,034 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has went over the rate limit allowed: Error 429
+2021-08-15 22:47:45,317 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:52:34,611 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:59:46,320 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 22:59:47,786 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 23:00:02,623 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-15 23:00:23,274 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-15 23:00:40,999 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 23:00:42,118 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 23:00:59,039 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the update appointment functionality without logging in
+2021-08-15 23:04:26,498 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the update appointment functionality without logging in
+2021-08-15 23:04:57,459 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 23:05:10,272 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-15 23:05:17,234 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-15 23:05:40,534 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-15 23:07:42,432 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-15 23:07:45,302 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-15 23:07:48,317 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-15 23:07:49,997 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-15 23:07:55,935 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the dashboard functionality without logging in
+2021-08-15 23:08:02,139 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the dashboard functionality without logging in
+2021-08-15 23:09:31,488 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-15 23:09:33,492 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-15 23:10:41,808 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Shopping Cart functionality without logging in
+2021-08-15 23:10:47,875 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the add doctor appointment functionality without logging in
+2021-08-15 23:10:52,153 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the add doctor appointment functionality without logging in
+2021-08-15 23:11:40,466 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the add doctor appointment functionality without logging in
+2021-08-15 23:12:13,933 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the add doctor appointment functionality without logging in
+2021-08-15 23:12:45,480 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-15 23:15:09,561 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 10:08:08,671 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 10:09:17,011 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the update questions functionality without logging in
+2021-08-16 10:09:23,557 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-16 10:09:40,008 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-16 10:09:43,116 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 10:09:57,247 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has used the -admin delete- admin functionality to delete account T0320487H 
+2021-08-16 10:09:58,414 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 10:10:21,723 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the dashboard functionality without logging in
+2021-08-16 10:10:29,300 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Shopping Cart functionality without logging in
+2021-08-16 10:11:12,310 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has went over the rate limit allowed: Error 429
+2021-08-16 10:11:31,691 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 10:27:37,316 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Purchase Item functionality without logging in
+2021-08-16 10:29:37,033 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the dashboard functionality without logging in
+2021-08-16 10:30:46,357 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Create Item functionality without logging in
+2021-08-16 10:49:22,564 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered: T1234987A )
+2021-08-16 10:49:37,591 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-16 10:49:47,562 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 10:53:13,117 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has went over the rate limit allowed: Error 429
+2021-08-16 10:59:02,256 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 14:24:20,914 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 14:24:52,822 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:28:37,597 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:37:01,567 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:38:52,145 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:42:11,923 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:42:12,899 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:42:47,682 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-16 18:42:58,367 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the create faq functionality without logging in
+2021-08-16 18:43:38,214 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:47:17,156 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 18:48:55,877 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 18:49:42,697 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Create Item functionality without logging in
+2021-08-16 18:49:43,209 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Create Item functionality without logging in
+2021-08-16 18:49:48,331 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 18:49:50,805 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-16 18:53:34,047 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-16 18:53:34,786 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 18:54:07,222 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 18:57:04,180 : Forms    : INFO     : 180.129.85.0    : T0320487H - New account (Username: T0320487H, Role: Patient) has been registered
+2021-08-16 19:00:18,209 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 19:01:36,805 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 19:01:46,269 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 19:02:47,752 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 19:04:07,158 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 19:05:15,639 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 19:09:11,926 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 19:11:25,301 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 19:12:28,483 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 19:12:29,088 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-16 20:47:38,160 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 20:49:10,252 : Forms    : ERROR    : 180.129.85.0    : T9876543A - User with IP address 180.129.85.0 failed to login into the account with username T9876543A: Incorrect Password
+2021-08-16 20:50:08,172 : Forms    : ERROR    : 180.129.85.0    : T1111111F - User with IP address 180.129.85.0 failed to login into non-existing account with username T1111111F: Incorrect NRIC
+2021-08-16 20:54:51,417 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 20:56:41,506 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:00:21,409 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:00:22,522 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:00:23,565 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:15:36,402 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:15:49,428 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:16:49,292 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:17:00,209 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:17:53,071 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:17:54,055 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:17:55,069 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:18:24,699 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:18:40,498 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:18:47,691 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:18:51,167 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:19:03,560 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:19:06,161 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:19:09,329 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:02,186 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the update questions functionality without logging in
+2021-08-16 21:20:06,952 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:20,036 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:26,869 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:33,085 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:35,179 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:41,035 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:47,277 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:55,674 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:20:58,164 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:21:14,545 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:24:06,233 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Appointment Summary functionality without logging in
+2021-08-16 21:24:47,673 : Forms    : ERROR    : 180.129.85.0    : T1234567A - Patient T1234567A attempted to access the -all users- admin functionality update page
+2021-08-16 21:27:26,146 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:27:33,056 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:28:02,817 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:29:16,290 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:29:33,579 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:29:35,390 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:30:00,372 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-16 21:30:16,036 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-16 21:30:37,122 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:31:24,343 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:32:01,410 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:37:10,288 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:44:51,483 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:44:55,044 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:45:38,744 : Forms    : ERROR    : 180.129.85.0    : T1234987A - User with IP address 180.129.85.0 failed to login into the account with username T1234987A: Incorrect Password
+2021-08-16 21:45:48,897 : Forms    : ERROR    : 180.129.85.0    : T1234987A - User with IP address 180.129.85.0 failed to login into the account with username T1234987A: Incorrect Password
+2021-08-16 21:46:03,649 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:46:32,948 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:47:54,817 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:48:01,790 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:51:57,200 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 21:52:26,065 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:53:13,298 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:55:37,391 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 21:56:36,763 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-16 21:56:46,390 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-16 21:59:34,851 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T5739128U)
+2021-08-16 22:01:19,603 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-16 22:01:31,113 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-16 22:02:23,614 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 22:02:38,328 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 22:05:30,273 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-16 22:07:49,321 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-16 22:08:13,459 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-16 22:09:30,943 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 22:09:35,313 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-16 22:13:55,357 : Forms    : ERROR    : 180.129.85.0    : T1234987A - User with IP address 180.129.85.0 failed to login into the account with username T1234987A: Incorrect Password
+2021-08-16 22:15:06,948 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 22:15:45,402 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-16 23:32:37,140 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 23:34:51,498 : Forms    : ERROR    : 180.129.85.0    : T1111111F - User with IP address 180.129.85.0 failed to login into non-existing account with username T1111111F: Incorrect NRIC
+2021-08-16 23:35:15,014 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-16 23:35:26,380 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-16 23:35:49,749 : Forms    : ERROR    : 180.129.85.0    : T1234567A - User with IP address 180.129.85.0 failed to login into the account with username T1234567A: Incorrect Password
+2021-08-16 23:36:30,654 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 23:36:34,271 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 23:37:10,704 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Shopping Cart functionality without logging in
+2021-08-16 23:37:15,674 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 23:37:26,725 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 23:38:33,019 : Forms    : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-16 23:38:34,814 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-16 23:38:35,785 : Forms    : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-16 23:48:20,402 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 23:48:22,706 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-16 23:48:44,449 : Forms    : ERROR    : 180.129.85.0    : T1234987A - User with IP address 180.129.85.0 failed to login into the account with username T1234987A: Incorrect Password
+2021-08-16 23:48:57,244 : Forms    : ERROR    : 180.129.85.0    : T1234987A - User with IP address 180.129.85.0 failed to login into the account with username T1234987A: Incorrect Password
+2021-08-16 23:49:09,920 : Forms    : ERROR    : 180.129.85.0    : T1234987A - User with IP address 180.129.85.0 failed to login into the account with username T1234987A: Incorrect Password
+2021-08-17 09:13:11,240 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:13:23,166 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-17 09:13:29,617 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-17 09:13:53,393 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:14:14,573 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the appointment list functionality without logging in
+2021-08-17 09:14:25,002 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:40:37,524 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:48:10,551 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:48:20,469 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:49:00,166 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:49:04,634 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:50:40,891 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:50:42,245 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:50:55,398 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:51:57,029 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:52:23,350 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:54:08,797 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:54:09,639 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:54:37,659 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:55:18,705 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-17 09:55:52,069 : Forms    : ERROR    : 180.129.85.0    : T9876543A - Doctor T9876543A attempted to access the -all users- admin functionality update page
+2021-08-17 09:56:25,729 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:57:10,407 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the appointment list functionality without logging in
+2021-08-17 09:57:27,105 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 09:57:39,978 : Forms    : ERROR    : 180.129.85.0    : T1234987A - User with IP address 180.129.85.0 failed to login into the account with username T1234987A: Incorrect Password
+2021-08-17 10:00:11,592 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 10:00:15,788 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 10:01:29,123 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 10:04:18,554 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 10:04:22,841 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-17 10:04:35,652 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-17 10:04:41,277 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-17 10:05:22,870 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 10:05:32,851 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 10:05:39,297 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 10:08:00,773 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Shopping Cart functionality without logging in
+2021-08-17 15:45:35,348 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 15:53:04,851 : __main__ : INFO     : 27.104.212.45   : T7654321B - New account (Username: T7654321B, Role: Patient) has been registered
+2021-08-17 16:00:58,054 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token, HMAC, and Digital Signature generated for email's Jeromeyeo2003@gmail.com password reset
+2021-08-17 16:01:06,621 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-17 16:01:20,991 : __main__ : INFO     : 27.104.212.45   : NIL       - User NIL (email: Jeromeyeo2003@gmail.com) has successfully reset their password
+2021-08-17 16:02:00,274 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-17 16:06:11,749 : __main__ : ERROR    : 27.104.212.45   : T7654321Z - User with IP address 27.104.212.45 failed to login into non-existing account with username T7654321Z: Incorrect NRIC
+2021-08-17 16:06:37,301 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the Profile functionality without logging in
+2021-08-17 16:06:54,438 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the Profile functionality without logging in
+2021-08-17 16:14:52,865 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 successfully updated their Profile Information
+2021-08-17 16:15:01,112 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 successfully updated their Profile Information
+2021-08-17 16:45:07,225 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token, HMAC, and Digital Signature generated for email's Jeromeyeo2003@gmail.com password reset
+2021-08-17 16:45:17,180 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-17 16:45:32,050 : __main__ : INFO     : 27.104.212.45   : NIL       - User NIL (email: Jeromeyeo2003@gmail.com) has successfully reset their password
+2021-08-17 16:50:35,879 : __main__ : INFO     : 27.104.212.45   : T7654321Z - New account (Username: T7654321Z, Role: Patient) has been registered
+2021-08-17 16:51:23,863 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token, HMAC, and Digital Signature generated for email's Jeromeyeo2003@gmail.com password reset
+2021-08-17 16:51:32,444 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-17 16:51:43,139 : __main__ : INFO     : 27.104.212.45   : NIL       - User NIL (email: Jeromeyeo2003@gmail.com) has successfully reset their password
+2021-08-17 16:54:01,389 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:01,733 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:02,110 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:02,466 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:02,850 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:04,293 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:04,620 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:36,364 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:54:37,166 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:41,294 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:41,635 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:42,022 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:42,372 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:42,668 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:43,042 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:43,389 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 16:55:55,066 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has went over the rate limit allowed: Error 429
+2021-08-17 17:05:10,804 : __main__ : ERROR    : 27.104.212.45   : T7654321B - User with IP address 27.104.212.45 failed to login into the account with username T7654321B: Incorrect Password
+2021-08-17 17:05:22,783 : __main__ : ERROR    : 27.104.212.45   : T7654321s - User with IP address 27.104.212.45 failed to login into non-existing account with username T7654321s: Incorrect NRIC
+2021-08-17 17:06:40,661 : __main__ : WARNING  : 27.104.212.45   : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-17 17:06:44,043 : __main__ : WARNING  : 27.104.212.45   : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-17 17:06:53,016 : __main__ : INFO     : 27.104.212.45   : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-17 17:07:27,984 : __main__ : INFO     : 27.104.212.45   : T1234987A - Admin T1234987A has used -admin update- admin functionality to update the information of account T0204514H 
+2021-08-17 17:07:29,025 : __main__ : INFO     : 27.104.212.45   : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-17 17:07:38,808 : __main__ : INFO     : 27.104.212.45   : T1234987A - Admin T1234987A has used the -admin delete- admin functionality to delete account T0204514H 
+2021-08-17 17:07:39,857 : __main__ : INFO     : 27.104.212.45   : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-17 17:09:56,961 : __main__ : ERROR    : 27.104.212.45   : T7654321B - User with IP address 27.104.212.45 failed to login into the account with username T7654321B: Incorrect Password
+2021-08-17 17:10:56,193 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the Create Item functionality without logging in
+2021-08-17 17:11:45,358 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the -all users- admin functionality without logging in
+2021-08-17 17:11:55,859 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the -admin update- admin functionality without logging in
+2021-08-17 17:13:18,508 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the -admin delete- admin functionality without logging in
+2021-08-17 17:13:57,121 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 17:14:03,254 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the -add doctor- admin functionality without logging in
+2021-08-17 17:15:06,480 : __main__ : ERROR    : 27.104.212.45   : NIL       - User with IP address 27.104.212.45 tried to use the appointment list functionality without logging in
+2021-08-17 17:15:36,298 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token, HMAC, and Digital Signature generated for email's Jeromeyeo2003@gmail.com password reset
+2021-08-17 17:15:45,845 : __main__ : INFO     : 27.104.212.45   : NIL       - Confirmation token successfully validated for email: "Jeromeyeo2003@gmail.com"
+2021-08-17 17:15:49,460 : __main__ : ERROR    : 27.104.212.45   : NIL       - Token for "Jeromeyeo2003@gmail.com" has had its contents changed: Error - MAC check failed
+2021-08-17 17:51:02,578 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 17:51:24,676 : Forms    : ERROR    : 222.164.164.206 : T1234987A - Admin T1234987A used invalid input in the search bar: (Input Entered: ' UNION select null,NRIC,password,null from Users --)
+2021-08-17 18:03:03,541 : Forms    : ERROR    : 222.164.164.206 : NIL       - Guest NIL used invalid input in the search bar: (Input Entered: ' UNION select null,NRIC,password,null from Users --)
+2021-08-17 18:03:24,565 : Forms    : ERROR    : 222.164.164.206 : NIL       - Guest NIL used invalid input in the search bar: (Input Entered: ' UNION select null,NRIC,password,null from Users --)
+2021-08-17 18:03:45,347 : Forms    : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 used invalid input in the Login Form: (Input Entered: ' OR 1=1--)
+2021-08-17 18:04:06,924 : Forms    : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 used invalid input in the Login Form: (Input Entered: 'OR 1=1--)
+2021-08-17 18:13:51,566 : Forms    : ERROR    : 222.164.164.206 : NIL       - Guest NIL used invalid input in the search bar: (Input Entered: ' UNION select null,NRIC,password,null from Users --)
+2021-08-17 18:15:26,622 : Forms    : ERROR    : 222.164.164.206 : NIL       - 222.164.164.206 used invalid input in the search bar: (Input Entered: ' UNION select null,NRIC,password,null from Users --)
+2021-08-17 19:06:32,349 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 tried to use the appointment list functionality without logging in
+2021-08-17 19:08:05,424 : __main__ : ERROR    : 222.164.164.206 : T1111111A - User with IP address 222.164.164.206 failed to login into the account with username T1111111A: Incorrect Password
+2021-08-17 19:54:07,087 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 has went over the rate limit allowed: Error 429
+2021-08-17 20:00:32,375 : __main__ : ERROR    : 222.164.164.206 : T1111111A - Username of T1111111A tried to re-register
+2021-08-17 20:00:47,595 : __main__ : ERROR    : 222.164.164.206 : T1111111A - User with IP address 222.164.164.206 failed to login into the account with username T1111111A: Incorrect Password
+2021-08-17 20:00:54,950 : __main__ : ERROR    : 222.164.164.206 : T1111111A - User with IP address 222.164.164.206 failed to login into the account with username T1111111A: Incorrect Password
+2021-08-17 20:01:17,333 : __main__ : ERROR    : 222.164.164.206 : T2222222A - Username of T2222222A tried to re-register
+2021-08-17 20:08:57,925 : __main__ : ERROR    : 222.164.164.206 : NIL       - User with IP address 222.164.164.206 successfully updated their Profile Information
+2021-08-17 20:33:19,919 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:34:37,229 : __main__ : ERROR    : <!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html> : NIL       - User with IP address <!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html> tried to use the Add Appointment functionality without logging in
+2021-08-17 20:35:00,987 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:35:25,264 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Add Appointment functionality without logging in
+2021-08-17 20:35:47,476 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Add Appointment functionality without logging in
+2021-08-17 20:36:42,159 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Add Appointment functionality without logging in
+2021-08-17 20:37:00,079 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:37:08,810 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Add Appointment functionality without logging in
+2021-08-17 20:38:52,009 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the Add Appointment functionality without logging in
+2021-08-17 20:40:10,757 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:40:13,054 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:40:34,719 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:44:14,502 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:44:14,635 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:44:15,883 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 20:44:59,700 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-17 20:45:10,688 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-17 20:45:56,202 : __main__ : INFO     : 180.129.85.0    : T1234987A - Admin T1234987A has accessed the -all users- admin functionality update page
+2021-08-17 20:45:58,012 : __main__ : WARNING  : 180.129.85.0    : T1234987A - Admin T1234987A has had an unexpected exception in -Log Monitoring- admin functionality: RuntimeError: main thread is not in main loop
+2021-08-17 20:46:02,391 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the update questions functionality without logging in
+2021-08-17 20:46:26,835 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the update appointment functionality without logging in
+2021-08-17 21:08:10,767 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 21:08:21,522 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-08-17 21:10:16,213 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T9876543A)
+2021-08-17 21:11:48,481 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T22222222A)
+2021-08-17 21:12:35,081 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T22222222A)
+2021-08-17 21:29:25,397 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 21:29:29,718 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 22:21:11,612 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-17 22:22:06,401 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 tried to use the appointment list functionality without logging in
+2021-08-18 20:31:54,727 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-19 11:38:41,154 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-19 12:40:37,829 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-19 12:47:58,273 : __main__ : ERROR    : 180.129.85.0    : T1234567A - User with IP address 180.129.85.0 failed to login into the account with username T1234567A: Incorrect Password
+2021-08-19 12:49:13,749 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 successfully updated their Profile Information
+2021-08-19 12:49:49,261 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 successfully updated their Profile Information
+2021-08-19 12:54:14,707 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-19 12:57:37,156 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-19 12:57:43,452 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-19 12:57:51,083 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-19 12:58:08,390 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-19 12:58:26,308 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234567A)
+2021-08-19 13:09:16,288 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-19 14:21:31,835 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-19 14:54:47,132 : __main__ : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-08-19 14:55:03,150 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-19 14:55:12,680 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-08-19 14:55:33,199 : Forms    : ERROR    : 180.129.85.0    : NIL       - User with IP address 180.129.85.0 used invalid input in the Login Form: (Input Entered:  T1234987A)
+2021-12-07 09:01:07,240 : __main__ : ERROR    : 202.12.94.240   : NIL       - User with IP address 202.12.94.240 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-12-07 09:01:23,970 : __main__ : ERROR    : 202.12.94.240   : T0320487H - User with IP address 202.12.94.240 failed to login into the account with username T0320487H: Incorrect Password
+2021-12-12 15:33:58,023 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 15:34:17,320 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 15:34:26,968 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 15:35:13,717 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 15:36:45,261 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-12-12 15:37:02,041 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-12-12 15:37:25,446 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-12-12 15:37:48,947 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 15:37:55,780 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 successfully updated their Profile Information
+2021-12-12 15:38:04,628 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 successfully updated their Profile Information
+2021-12-12 15:38:25,285 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-12-12 15:38:35,139 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-12-12 15:40:21,680 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 15:40:34,394 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 16:24:10,289 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 has attempted to follow a broken, dead, or non-existent link: Error 404
+2021-12-12 16:24:19,837 : __main__ : ERROR    : 112.199.163.45  : NIL       - User with IP address 112.199.163.45 tried to use Special Requirement Functionality: (Only authorized for account T1234987A)
+2021-12-12 16:24:39,419 : __main__ : ERROR    : 112.199.163.45  : T1234987A - User with IP address 112.199.163.45 failed to login into the account with username T1234987A: Incorrect Password
+2021-12-12 16:25:00,734 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 16:25:18,782 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path
+2021-12-12 16:25:28,408 : __main__ : ERROR    : 112.199.163.45  : NIL       - Unauthorized user with IP address 112.199.163.45 tried to access a protected file path

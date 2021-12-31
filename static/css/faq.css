@@ -1,0 +1,84 @@
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible:after {
+  content: '\002B';  /* Unicode character for "plus" sign (+) */
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.add_qns{
+    font-size:50px;
+    color:black;
+    margin-left:50px;
+    margin-bottom:30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  width:30%;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  margin-top:20px;
+  margin-bottom:30px;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  margin-top:20px;
+  margin-bottom:30px;
+  width: 80px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}

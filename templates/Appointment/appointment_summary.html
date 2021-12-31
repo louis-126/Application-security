@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}NYP - Appointments{% endblock %}
+ {% block scripts %}
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+ {% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static' ,filename='css/faq.css' )}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h1 class="display-4">Appointment Summary</h1>
+
+<div>
+  <a class="btn btn-info" href="{{url_for('appointment')}}">Appointment List</a>
+    <a class="btn btn-info" href="{{url_for('showechart')}}">Most Frequent Hours</a>
+</div>
+<div>
+  {% for months in period %}
+  <button class="collapsible">{{months}}</button>
+    <div class="content">
+        <p>There are {{period[months]}} appointment in  {{months}}</p>
+    </div>
+  {%endfor%}
+</div>
+
+{% endblock %}

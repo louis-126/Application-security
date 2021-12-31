@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Shopping Cart{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+
+<div class="pres-item-container">
+  <div class="pres-item-name-container">
+    <p class="pres-item-name"> {{ name }} </p>
+  </div>
+  <hr>
+  <div class="pres-item-picture-container">
+    <img class="pres-item-picture" src="{{ picture }}">
+  </div>
+  <div class="pres-item-bio-container">
+    <p class="pres-item-bio-text">Item Details:</p>
+    <p class="pres-item-bio">{{ bio }}</p>
+  </div>
+  <div class="pres-item-price-container">
+    <p class="pres-item-price">${{ price }}</p>
+  </div>
+  <hr class="pres-item-bio-divider">
+  <form class="pres-item-form" method="POST" action="">
+    <div class="pres-item-form-quantity-field-container">
+      Amount: {{ render_field(form.quantity, class="pres-item-form-quantity-field") }}
+    </div>
+    <div class="pres-item-form-dosage-field-container">
+      Dosage: {{ render_field(form.dosage_times, class="pres-item-form-dosage-times-field") }} times
+      {{ render_field(form.dosage_interval, class="pres-item-form-dosage-interval-field") }}
+    </div>
+
+    <div class="pres-item-buttons-container">
+      <input type="submit" value="Add To Prescription" class="pres-item-add-to-pres"/>
+      <a href="/prescription" class="pres-item-cancel">Cancel</a>
+    </div>
+  </form>
+  <div class="pres-item-stock-container">
+    {% if have == 0 %}
+          <p class="pharma-item-have-low">Out of Stock</p>
+    {% elif have <= 100 %}
+      <p class="pres-item-stock-low">Available: {{ have }}</p>
+    {% else %}
+      <p class="pres-item-stock-high">Available: {{ have }}</p>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

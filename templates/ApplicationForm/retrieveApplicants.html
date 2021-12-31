@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% block title %}NYP - Retrieve Applicants{% endblock %}
+{% block content %}
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css">
+
+<a href="{{url_for('show_dashboard')}}" class="btn btn-primary">Qualification</a>
+<a href="{{url_for('show_dashboard2')}}" class="btn btn-primary">Region</a>
+<a href="{{url_for('show_dashboard3')}}" class="btn btn-primary">Age-Range</a>
+
+
+{% if 'applicant_created' in session %}
+<div class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  {{ session.pop('applicant_created', None) }} was created.
+</div>
+{% elif 'applicant_updated' in session %}
+<div class="alert alert-warning alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  {{ session.pop('applicant_updated', None) }} was updated.
+</div>
+{% elif 'applicant_deleted' in session %}
+<div class="alert alert-danger alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  {{ session.pop('applicant_deleted', None) }} was deleted.
+</div>
+{% endif %}
+
+<h1 class="display-4">Retrieve Applicants</h1>
+<div>
+  {% if count == 0 %}
+  <p>There are no applicants.</p>
+  {% elif count == 1 %}
+  <p>There is 1 applicant.</p>
+  {% else %}
+  <p>There are {{ count }} applicants.</p>
+  {% endif %}
+</div>
+
+
+<script>
+$(document).ready(function(){
+  $('#tabledata').DataTable();
+});
+</script>
+
+
+
+
+<div>
+  <table id="tabledata" class="table table-striped table-bordered" style="width:100%">
+    <thead>
+      <tr>
+        <th>Date Applied</th>
+        <th>No.</th>
+        <th>Name</th>
+        <th>NRIC</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th>Gender</th>
+        <th>Nationality</th>
+        <th>Language</th>
+        <th>Phone Number</th>
+        <th>Qualification</th>
+        <th>Industry</th>
+        <th>Past Employment</th>
+        <th></th>
+        <th></th>
+        <th></th>
+
+
+      </tr>
+    </thead>
+    <tbody id="myTable">
+    {% for applicants in applicants_list %}
+      <tr>
+        <td>{{ applicants.get_date()}}
+        <td>{{ applicants.get_applicantid() }}</td>
+        <td>{{ applicants.get_first_name()+ " " + applicants.get_last_name() }}</td>
+        <td>{{ applicants.get_NRIC() }}</td>
+        <td>{{ applicants.get_email() }}</td>
+        <td>{{ applicants.get_age() }}</td>
+        <td>{{ applicants.get_address() }}</td>
+        <td>{{ applicants.get_gender() }}</td>
+        <td>{{ applicants.get_nationality() }}</td>
+        <td>{{ applicants.get_language() }}</td>
+        <td>{{ applicants.get_phonenumber() }}</td>
+        <td>{{ applicants.get_qualification() }}</td>
+        <td>{{ applicants.get_industry() }}
+        <td>
+            Company: {{applicants.get_company1()}} | Position: {{applicants.get_position1()}}
+            {% if applicants.get_company2() != "" and applicants.get_position2 != "" %}
+            <br>
+            Company: {{applicants.get_company2()}} | Position: {{applicants.get_position2()}}
+            {%else%}
+
+            {% endif %}
+        </td>
+        <td><a href="/sendApplicants/{{applicants.get_applicantid()}}" class ="btn btn-primary">Send</a></td>
+        <td><a href="/updateApplicants/{{applicants.get_applicantid()}}" class="btn btn-warning">Update</a></td>
+        <td>
+        <form action="{{url_for('delete_applicant', id=applicants.get_applicantid())}}" method="POST">
+          <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this applicant? ');">
+        </form>
+        </td>
+      </tr>
+    {% endfor %}
+
+    </tbody>
+  </table>
+</div>
+{% endblock %}

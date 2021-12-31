@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}NYP - Appointments{% endblock %}
+
+{% block content %}
+<h1 class="display-4">Appointment History</h1>
+<p>There are {{appointment_len}} appointment history</p>
+<div>
+  <a class="btn btn-info" href="{{url_for('appointment')}}">Appointment List</a>
+</div>
+<div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Department</th>
+        {% if session["user-role"] != "Patient" %}
+        <th>Patient</th>
+        {%endif%}
+        {% if session["user-role"] != "Doctor" %}
+        <th>Doctor</th>
+        {%endif%}
+        <th>Date</th>
+        <th>Time</th>
+        <th>Venue</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+     {% for appointments in appointment_list %}
+      <tr>
+        <td>{{ appointments.get_department() }}</td>
+        {% if session["user-role"] != "Patient" %}
+        <td>{{ appointments.get_patient() }}</td>
+        {%endif%}
+        {% if session["user-role"] != "Doctor" %}
+        <td>{{ appointments.get_doctor() }}</td>
+        {%endif%}
+        <td>{{ appointments.get_date() }}</td>
+        <td>{{ appointments.get_time() }}</td>
+        <td>{{ appointments.get_venue() }}</td>
+        <td>
+          {%if session['user-role'] == "Admin"%}
+        <td><form action="{{url_for('delete_appointment', id=appointments.get_id())}}" method="POST">
+            <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this appointment? ');">
+              {%endif%}
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+</div>
+
+{% endblock %}

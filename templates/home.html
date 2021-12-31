@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Nanyang Polyclinic{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static' ,filename='css/home.css' )}}">
+
+
+
+    <div class="container">
+        <img src="{{url_for('static', filename='images/doctor.png')}}" width="100%" height="700px">
+        <div class="top-right">
+            <h1>Why choose us?</h1>
+            <p>Nanyang Polyclinic offers a comprehensive range of primary healthcare services through our clinics.
+                Our experienced medical team consisting of doctors, specialists, nurses seek to provide quality care in an
+                enriching, welcoming and tech-enabled environment.</p>
+            <h2>Our Services</h2>
+            <p>Services offered include, but not limited to the following: treatment of acute and chronic conditions in both adults and children,
+                health screenings, work-related screenings and vaccinations.</p>
+            <h2>E-Services</h2>
+            <p>Find services for online transactions with Nanyang Polyclinic including:</p>
+            <ol>
+                {%if session['user'] != null %}
+                    {%if session['user-role'] == "Doctor" or session['user-role'] == 'Patient' %}
+                        <li><a href="{{url_for('add_appointment')}}">Booking E-Appointment</a></li>
+                        <li><a href="{{url_for('show_items')}}">Purchasing Medication Online</a></li>
+                        <li><a href="{{url_for('appointment_hist')}}">View Appointment History</a></li>
+                    {%elif session['user-role'] == 'Admin'%}
+                        <li><a href="#">Booking E-Appointment</a></li>
+                        <li><a href="{{url_for('show_items')}}">Purchasing Medication Online</a></li>
+                        <li><a href="{{url_for('appointment_hist')}}">View Appointment History</a></li>
+                    {%endif%}
+                {%else%}
+                    <li><a href="{{url_for('login')}}">Booking E-Appointment</a></li>
+                    <li><a href="{{url_for('show_items')}}">Purchasing Medication Online</a></li>
+                    <li><a href="{{url_for('login')}}">View Appointment History</a></li>
+                {%endif%}
+            </ol>
+        </div>
+    </div>
+
+{% endblock %}
+
+

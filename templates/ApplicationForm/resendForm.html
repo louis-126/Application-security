@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Application Form{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+<h1 class="display-4">Resend Filter</h1>
+
+<div class="container">
+
+  <form method="POST" action="">
+    <div class="user-details">
+
+        <div>
+        {{ render_field(form.nric, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.email, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.age, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.gender, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.nationality, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.language, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.phoneno, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.quali, class="") }}
+        </div>
+
+        <div>
+        {{ render_field(form.industry, class="") }}
+        </div>
+
+        <div class="button">
+        <a href="{{url_for('retrieve_applicants')}}" class="btn btn-warning">Back</a>
+        <input class="btn btn-primary"  type="submit" value="Send">
+        </div>
+
+    </div>
+
+  </form>
+
+</div>
+
+{% endblock %}
+

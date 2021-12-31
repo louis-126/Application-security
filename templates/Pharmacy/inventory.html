@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Inventory{% endblock %}
+
+{% block content %}
+<h1 class="display-4">Inventory</h1>
+
+<div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Item ID</th>
+        <th>Picture</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Amount in Stock</th>
+        <th>Bio</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for item in items_list %}
+      <tr>
+        <td>{{ item.get_item_id() }}</td>
+        <td><img src="{{ item.get_item_picture() }}" height="100"></td>
+        <td>{{ item.get_item_name() }}</td>
+        <td>${{ item.get_item_price() }}</td>
+        {% if item.get_item_have() == 0 %}
+          <td style="color:red">Out of Stock</td>
+        {% elif item.get_item_have() <= 100 %}
+          <td style="color:red">{{ item.get_item_have() }}</td>
+        {% else %}
+          <td>{{ item.get_item_have() }}</td>
+        {% endif %}
+        <td>{{ item.get_item_have() }}</td>
+        <td>{{ item.get_item_bio() }}</td>
+        <td><a href="/updateItem/{{item.get_item_id()}}" class="btn btn-warning">Update</a></td>
+        <td>
+          <form action="{{url_for('delete_item', id=item.get_item_id())}}" method="POST">
+            <button type="submit" class="btn btn-danger">
+              Delete
+            </button>
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+{% endblock %}

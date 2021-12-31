@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Reviews{% endblock %}
+
+  {% block scripts %}
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+ {% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static' ,filename='css/faq.css' )}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+{% from "includes/_formHelper.html" import render_field %}
+<h1 class="display-4">Reviews</h1>
+<div>
+
+    {% if session['user'] != null %}
+         {%if session['user-role'] == "Admin"%}
+         {% if count == 0 %}
+            <p>There are no review.</p>
+            {% elif count == 1 %}
+            <p>There is 1 review.</p>
+            {% else %}
+            <p>There are {{ count }} reviews.</p>
+            {% endif %}
+        {%endif%}
+    {%endif%}
+    {% if session['user'] != null %}
+    <a href="/review" class="btn btn-primary">Add new review</a>
+    {%endif%}
+
+
+    {% for review in review_list %}
+        <button class="collapsible">{{ review.get_title() }}</button>
+        <div class="content">
+            <p>Name: {{review.get_name()}}</p>
+          <p>Date of post: {{ review.get_date() }}</p>
+          <p>{{ review.get_content() }}</p>
+            {% if session['user'] != null %}
+             {%if session['user-role'] == "Admin"%}
+                <p><a href="{{ url_for('update_review', id=review.get_review_id()) }}" class="btn btn-warning">Update</a>
+               <form action="{{url_for('delete_review', id=review.get_review_id() ) }}"  method="POST">
+                <input type="submit" value="Delete" id='btn' class="btn btn-danger" onclick="return confirm('Are you sure you want to delete the review {{review.get_title()}} and the content of {{review.get_content()}}?')">
+               </form>
+            {% endif %}
+            {% endif %}
+          </p>
+        </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

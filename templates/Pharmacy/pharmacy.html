@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Pharmacy{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+
+
+
+<div class="search-container">
+  <div class="dropdown">
+    <button class="dropbtn"><img class="hamburger-button" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ebGKXSBc3rwmT8BoF7c1hAHaHa%26pid%3DApi&f=1"></button>
+    <div class="dropdown-content">
+      <a href="/pharmacy/hot">Hot Sellers</a>
+      <a href="/pharmacy/limited">Limited Stock</a>
+      <a href="/pharmacy/new">New</a>
+    </div>
+  </div>
+  <form class="search-form" method="post">
+    {{ render_field(form.search, class="search-bar") }}
+    <button type="submit">
+      <i class="fa fa-search" style="font-size: 23px;"></i>
+    </button>
+  </form>
+      <a href="/shoppingCart" class="cart-button">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fshopping-cart-icon-transparent-20.png&f=1&nofb=1" height="35px">
+      </a>
+  {% if session['user'] != null %}
+    {% if session['user-role'] == "Admin" %}
+      <a class="create-button" href="/createItem"> + </a>
+      <a class="inventory-button" href="/inventory"> i </a>
+        <a class="dashboard-button" href="/dashboard"><img class="dashboard-img" src="https://cdn4.iconfinder.com/data/icons/tupix-1/30/graph-512.png"></a>
+    {% endif %}
+    <div class="prescription-container">
+    {% if session['user-role'] == "Doctor" %}
+      <a class="prescription-button" href="/prescription"> E-Doctor Prescription </a>
+    {% elif session['user-role'] == "Patient" %}
+      <a class="prescription-button" href="/prescription/prescribe"> E-Doctor Prescription </a>
+    {% endif %}
+      <a class="prescription-button" href="/purchaseHistory"> Purchase History </a>
+    </div>
+  {% endif %}
+
+</div>
+
+<div class="pharma-container">
+  {% for item in items_list %}
+  <div class="pharma-item-container">
+    <div class="pharma-item-picture-container">
+      <img class="pharma-item-picture" src="{{ item.get_item_picture() }}">
+    </div>
+    <div class="pharma-text-container">
+      <div class="pharma-item-name-container">
+        <p class="pharma-item-name">{{ item.get_item_name() }}</p>
+      </div>
+      <div class="pharma-item-price-container">
+        <p class="pharma-item-price">${{ item.get_item_price() }}</p>
+      </div>
+      <div class="pharma-item-have-container">
+        {% if item.get_item_have() == 0 %}
+          <p class="pharma-item-have-low">Out of Stock</p>
+        {% elif item.get_item_have() <= 100 %}
+          <p class="pharma-item-have-low">Available: {{ item.get_item_have() }}</p>
+        {% else %}
+          <p class="pharma-item-have-high">Available: {{ item.get_item_have() }}</p>
+        {% endif %}
+      </div>
+      <div class="pharma-add-to-cart-container">
+        <a class="pharma-add-to-cart-button" href="/purchaseItem/{{ item.get_item_id() }}/">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+{% endblock %}
+
+

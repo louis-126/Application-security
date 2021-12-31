@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Shopping Cart{% endblock %}
+
+{% block content %}
+<p class="db-ts">Total Sales: <span class="total">${{ total }}</span></p>
+
+<div class="db-item-container">
+    <p class="db-ni">Number of Items: <span class="no_items">{{ no_items }}</span></p>
+    <div class="db-gitem-container">
+        <p class="db-gi">Number of General Items: <span class="no_general">{{ no_general }}</span></p>
+        <div class="glow-container">
+            Low Stock General Item (Qty):
+            <ol class="glow">
+                {% for item in glow_list %}
+                <li>{{ item.get_item_name() }} ({{ item.get_item_have() }})</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+    <div class="db-pitem-container">
+        <p class="db-pi">Number of Prescription Items: {{ no_prescribed }}</p>
+        <div class="plow-container">
+            Low Stock Prescription Item (Qty):
+            <ol class="plow">
+                {% for item in plow_list %}
+                <li>{{ item.get_item_name() }} ({{ item.get_item_have() }})</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</div>
+<div class="db-cart-container">
+    <p class="db-co">Number of Completed Orders: {{ no_paid }}</p>
+    <div class="recent">
+    Recent Cart:
+        <ol class="db-rc">
+
+            {% for cart in paid_list %}
+            <li><a href="{{url_for('specific_cart', id=cart.get_id())}}">Cart {{ cart.get_id() }}</a> by {{ cart.get_owner() }}</li>
+            {% endfor %}
+        </ol>
+    </div>
+</div>
+<div class="db-cart-container">
+    <p class="db-co">Number of Prescription: {{ no_pres }}</p>
+    <div class="recent">
+        Recent Prescription:
+        <ol class="db-rc">
+            {% for cart in pres_list %}
+            <li>Pres {{ cart.get_id() }} by {{ cart.get_owner() }}</li>
+            {% endfor %}
+        </ol>
+    </div>
+</div>
+{% endblock %}

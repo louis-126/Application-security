@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Prescription{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+<div class="search-container">
+  <form class="search-form" method="post">
+    {{ render_field(form.search, class="search-bar") }}
+    <button type="submit">
+      <i class="fa fa-search" style="font-size: 23px;"></i>
+    </button>
+  </form>
+      <a href="/prescription/prescribe" class="cart-button">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-icon%2Fmedical-prescription_318-48378.jpg&f=1&nofb=1" height="35px">
+      </a>
+</div>
+
+<div class="pharma-container">
+    {% for item in items_list %}
+    <div class="pharma-item-container">
+        <div class="pharma-item-picture-container">
+          <img class="pharma-item-picture" src="{{ item.get_item_picture() }}">
+        </div>
+        <div class="pharma-text-container">
+          <div class="pharma-item-name-container">
+            <p class="pharma-item-name">{{ item.get_item_name() }}</p>
+          </div>
+          <div class="pharma-item-price-container">
+            <p class="pharma-item-price">${{ item.get_item_price() }}</p>
+          </div>
+          <div class="pharma-item-have-container">
+            {% if item.get_item_have() == 0 %}
+              <p class="pharma-item-have-low">Out of Stock</p>
+            {% elif item.get_item_have() <= 100 %}
+              <p class="pharma-item-have-low">Available: {{ item.get_item_have() }}</p>
+            {% else %}
+              <p class="pharma-item-have-high">Available: {{ item.get_item_have() }}</p>
+            {% endif %}
+          </div>
+          <div class="pres-add-to-container">
+            <a class="pres-add-to-button" href="/prescribeItem/{{ item.get_item_id() }}/">+</a>
+          </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

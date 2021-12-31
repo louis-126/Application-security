@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+}
+
+.form{
+    width:35%;
+    margin-right:200px;
+    margin-bottom:10px;
+
+}
+
+#enquiries{
+    height:150px;
+}
+
+.btn{
+    margin-top:50px
+}
+
+.icon{
+    height:25px;
+    width:25px;
+}
+
+.text{
+    margin-top:50px;
+    margin-left:325px;
+}
+
+.content{
+    margin-top:50px;
+}
+

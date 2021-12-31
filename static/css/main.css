@@ -1,0 +1,995 @@
+body {
+    background: #EEE
+}
+
+/* Login Page */
+.login-txt {
+    color: #444444;
+}
+
+#login-menu {
+    left: auto;
+    right: 0;
+    padding--left: 2px
+}
+
+.bg-steel {
+    background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;flaskapptest123@gmail.com
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    color: #444444;
+}
+
+a.article-title:hover {
+     color: #428bca;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+}
+
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+}
+/* Search Bar */
+.search-container {
+    background-color: #d4d4ef;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.search-container input[type=text] {
+    float: center;
+    font-size: 17px;
+    width: 900px;
+    padding: 2px;
+    margin: 20px;
+}
+
+.search-form {
+    width: 80%;
+    display: inline;
+}
+
+
+.cart-button {
+    float: right;
+    border: solid 1px black;
+    margin: 18px 20px 0px 0px;
+}
+
+.create-button {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    margin-left: 5px;
+}
+
+.create-button:visited {
+    color: black;
+}
+
+.inventory-button {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    margin-left: 5px;
+}
+
+.inventory-button:visited {
+    color: black;
+}
+
+.dashboard-img {
+    margin-left: 10px;
+    height: 35px;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EFEFEF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn .hamburger-button{border: 1px #EFEFEF solid;}
+
+.hamburger-button {
+    height: 30px;
+}
+
+/* Prescription */
+.prescription-button {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #555555;
+}
+
+.prescription-button:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+.pres-add-to-container {
+    display: inline-block;
+    float: left;
+}
+
+.pres-add-to-button {
+    font-size: 26px;
+    vertical-align: middle;
+    border-radius: 11px;
+    background-image: linear-gradient(#ccf, #bbd);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90px;
+    height: 13px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.pres-add-to-button:hover {
+    border-radius: 11px;
+    background-image: linear-gradient(#bebefe, #aeaede);
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Pharmacy Page */
+/* Container */
+.pharma-container {
+    border: 49px #EFEFEF solid;
+    background: #EFEFEF;
+}
+
+.pharma-item-container {
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    height: 300px;
+    width: 220px;
+    margin: 10px 9px 10px 9px;
+    background: white;
+}
+
+.pharma-text-container {
+    margin-left: 10px;
+}
+
+.pharma-add-to-cart-container {
+    display: inline-block;
+    float: left;
+}
+
+.pharma-item-have-container {
+    display:inline;
+    float: left;
+    width: 110px;
+}
+
+.pharma-item-picture-container {
+    overflow: hidden;
+    height: 190px;
+}
+
+.pharma-item-price-container {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+}
+
+/* Elements */
+.pharma-item-picture {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 190px;
+    overflow: hidden;
+}
+
+.pharma-item-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+
+.pharma-item-price {
+    font-size: 22px;
+}
+
+.pharma-item-have-high {
+    font-size: 13px;
+    margin: 5px 0px 0px 0px;
+    font-weight: 200;
+}
+
+.pharma-item-have-low {
+    font-size: 13px;
+    margin: 5px 0px 0px 0px;
+    font-weight: 200;
+    color: red;
+}
+
+.pharma-add-to-cart-button {
+    border-radius: 11px;
+    background-image: linear-gradient(#ccf, #bbd);
+    padding: 5px;
+    width: 90px;
+    height: 16px;
+    color: white;
+}
+
+.pharma-add-to-cart-button:hover {
+    background-image: linear-gradient(#bebefe, #aeaede);
+    padding: 5px;
+    width: 90px;
+    height: 16px;
+    color: white;
+}
+
+/* Buy Item Page*/
+/* Container */
+.buy-item-container{
+    display: block;
+    width: 1200px;
+    margin:auto;
+}
+
+.buy-item-name-container {
+    height: 35px;
+}
+
+.buy-item-picture-container {
+    display: inline-block;
+    width: 300px;
+    height: 320px;
+    padding: 10px;
+    float: left;
+}
+
+.buy-item-bio-container {
+    display: inline-block;
+    width: 800px;
+    height: 320px;
+    margin: auto;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+.buy-item-price-container {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.buy-item-form-want-field-container {
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 20px;
+    display: block;
+}
+
+.buy-item-buttons-container {
+    float: right;
+    margin-top: 15px;
+    display: block;
+}
+
+.buy-item-stock-container {
+    display: inline-block;
+    float: left;
+}
+
+/* Element */
+.buy-item-name {
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.buy-item-picture {
+    border: solid 1px #AAAAAA;
+    display: block;
+    height: 300px;
+    margin: auto auto;
+}
+
+.buy-item-bio-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding 0;
+}
+
+.buy-item-price {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.buy-item-form {
+    display: inline-block;
+    width: 800px;
+    height: 100px;
+    float: right;
+    margin-right: 100px;
+}
+
+.buy-item-form-want-field {
+    width: 30px;
+    float: right;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.buy-item-form-want-field:focus {
+    background-color: lightblue;
+}
+
+.buy-item-add-to-cart {
+    border-radius: 17px;
+    background-image: linear-gradient(#ccf, #bbd);
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    outline: none;
+}
+
+.buy-item-add-to-cart:hover {
+    background-image: linear-gradient(#bebefe, #aeaede);
+}
+
+.buy-item-cancel {
+    margin-left: 42px;
+}
+
+.buy-item-stock-low {
+    margin-left: 40px;
+    font-size: 16px
+    font-weight: 300;
+    color: red;
+}
+
+.buy-item-stock-high {
+    margin-left: 40px;
+    font-size: 16px
+    font-weight: 300;
+}
+
+.buy-item-bio-divider {
+    margin-top: 45px;
+}
+
+/* Prescribe Item Page*/
+/* Container */
+.pres-item-container{
+    display: block;
+    width: 1200px;
+    margin:auto;
+}
+
+.pres-item-name-container {
+    height: 35px;
+    display: inline-block;
+}
+
+.pres-item-picture-container {
+    display: inline-block;
+    width: 300px;
+    height: 320px;
+    padding: 10px;
+    float: left;
+}
+
+.pres-item-bio-container {
+    display: inline-block;
+    width: 800px;
+    height: 320px;
+    margin: auto;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+.pres-item-price-container {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.pres-item-form-dosage-field-container {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 20px;
+    display: block;
+}
+
+.pres-item-form-quantity-field-container {
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 20px;
+    display: block;
+}
+
+.pres-item-buttons-container {
+    float: right;
+    margin-top: 15px;
+    display: block;
+}
+
+.pres-item-stock-container {
+    display: inline-block;
+    float: left;
+}
+
+
+/* Element */
+.pres-item-name {
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.pres-item-picture {
+    border: solid 1px #AAAAAA;
+    display: block;
+    height: 300px;
+    margin: auto auto;
+}
+
+.pres-item-bio-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding 0;
+}
+
+.pres-item-price {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pres-item-form {
+    display: inline-block;
+    width: 800px;
+    height: 100px;
+    float: right;
+    margin-right: 100px;
+}
+
+.pres-item-form-quantity-field {
+    width: 30px;
+    float: right;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.pres-item-form-quantity-field:focus {
+    background-color: lightblue;
+}
+
+.pres-item-form-dosage-times-field {
+    width: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.pres-item-form-dosage-times-field:focus {
+    background-color: lightblue;
+}
+
+.pres-item-form-dosage-interval-field {
+    width: 100px;
+    float: right;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.pres-item-form-dosage-interval-field:focus {
+    background-color: lightblue;
+}
+
+.pres-item-add-to-pres {
+    border-radius: 17px;
+    background-image: linear-gradient(#ccf, #bbd);
+    width: 177px;
+    height: 35px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    outline: none;
+}
+
+.pres-item-add-to-pres:hover {
+    background-image: linear-gradient(#bebefe, #aeaede);
+}
+
+.pres-item-cancel {
+    margin-left: 68px;
+}
+
+.pres-item-stock-low {
+    margin-left: 40px;
+    font-size: 16px
+    font-weight: 300;
+    color: red;
+}
+
+.pres-item-stock-high {
+    margin-left: 40px;
+    font-size: 16px
+    font-weight: 300;
+}
+
+.pres-item-bio-divider {
+    margin-top: 45px;
+}
+
+.pres-addToCart {
+    background-image: linear-gradient(#ccf, #bbd);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+    display: inline;
+    float: left;
+    height: 31px;
+    width: 180px
+}
+
+.pres-addToCart:hover {
+    background-image: linear-gradient(#bebefe, #aeaede);
+    text-decoration: none;
+    color: #ffe;
+    border: 1px #44A solid;
+}
+
+.pres-addToCart:active {
+    outline: none;
+}
+
+.pres-addToCart:focus {
+    outline: none;
+}
+
+/* Flashes */
+.not-enough-stock-container {
+    background: #f68888;
+    list-style-type: none;
+    margin: 0;
+}
+
+.not-enough-stock-msg {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Shopping Cart */
+/* Container */
+.sc-container {
+    width: 1060px;
+    background: white;
+    border: 20px solid #EFEFEF;
+    display: inline-block;
+    float: left;
+}
+
+.sc-header {
+    width: 1000px
+}
+
+.sc-item-container {
+    display: inline-block;
+    border-top: solid 1px #DDD;
+    margin: 0px 8px 0px 8px;
+    height: 250px;
+    width: 1000px;
+    padding-left:10px
+}
+
+.sc-text-container {
+    display:block;
+}
+
+.sc-item-name-container {
+    display: inline-block;
+}
+
+
+.sc-item-have-container {
+    display: inline;
+    float: left;
+    width: 110px;
+}
+
+.sc-item-picture-container {
+    overflow: hidden;
+    float: left;
+    height: inherit;
+    padding: 20px;
+}
+
+.sc-item-price-container {
+    display: inline-block;
+    float: right;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.sc-button-container {
+    padding-top: 170px;
+    float: right;
+}
+
+.sc-checkout-container {
+    display: inline-block;
+    border: 18px #EFEFEF solid;
+    width: 257px;
+}
+
+/* Elements */
+.sc-head-title {
+    margin-left: 10px;
+    font-size: 33px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.sc-head-price {
+    float: right;
+    font-size: 10px
+    font-weight: 300;
+    margin: 30px 0px 0px 5px;
+    display: inline;
+}
+
+.sc-item-picture {
+    display: block;
+    height: 200px;
+}
+
+.sc-item-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+
+.sc-item-price {
+    font-size: 20px;
+    display: inline;
+}
+
+.sc-item-want {
+    font-size: 15px;
+    margin: 5px 0px 0px 0px;
+    font-weight: 200;
+    display: inline;
+}
+
+.sc-change-qty-button {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 15px;
+    line-height: 10px;
+    border: none;
+    background: none;
+    display: inline;
+}
+
+.sc-item-delete {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 15px;
+    display: inline;
+    line-height: 10px;
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: auto;
+    outline: none;
+}
+
+.sc-item-delete:hover {
+    color: teal;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sc-item-delete:active {
+    outline: none;
+}
+
+.sc-item-delete:focus {
+    outline: none;
+}
+
+.sc-subtotal-price-text {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.sc-subtotal-price {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.sc-checkout {
+    background-image: linear-gradient(#ccf, #bbd);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+    display: inline;
+    float: left;
+    height: 31px;
+    width: 77px
+}
+
+.sc-checkout:hover {
+    background-image: linear-gradient(#bebefe, #aeaede);
+    text-decoration: none;
+    color: #ffe;
+    border: 1px #44A solid;
+}
+
+.sc-clear-cart {
+    margin: 0;
+    font-size: 15px;
+    display: inline;
+    line-height: 10px;
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: auto;
+    padding-top: 15px;
+    outline: none;
+}
+
+.sc-clear-cart:hover {
+    color: teal;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sc-clear-cart:active {
+    outline: none;
+}
+
+.sc-clear-cart:focus {
+    outline: none;
+}
+
+/* Cart History */
+.cart-container {
+    border-bottom: 10px solid #EFEFEF;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.ph-cart-id {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.ph-get-cart {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    display: inline;
+    line-height: 10px;
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: auto;
+    outline: none;
+    float:right;
+}
+
+.ph-get-cart:hover {
+    color: teal;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ph-get-cart:active {
+    outline: none;
+}
+
+.ph-get-cart:focus {
+    outline: none;
+}
+
+/* Dashboard */
+.db-ts {
+    text-align: center;
+    font-size: 30px;
+    background: #EFFEEF
+}
+
+.total {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.db-item-container {
+    display:block;
+    background: #F5F5F5
+}
+
+.db-ni {
+    margin-left: 10px;
+    font-size: 27px;
+}
+
+.db-gitem-container {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.db-gi{
+    font-size: 27px;
+}
+
+.glow-container{
+    font-size: 25px;
+}
+
+.glow{
+    font-size: 25px;
+    overflow: auto;
+    height: 80px;
+
+}
+
+.db-pitem-container {
+    display: inline-block;
+    margin-right: 250px;
+    float: right;
+}
+
+.db-pi {
+    font-size: 27px;
+}
+
+.plow-container {
+    font-size: 25px;
+}
+
+
+.plow {
+    font-size: 25px;
+    overflow: auto;
+    height: 80px;
+}
+
+.db-cart-container {
+    display:inline-block;
+    padding-left: 10px;
+    width: 655px;
+    margin-top: 20px;
+    background: #EFEFFE;
+    height: 220px;
+}
+
+.db-co {
+    font-size: 25px;
+}
+
+.db-rc {
+    overflow:auto;
+    height: 120px;
+}
+
+.recent {
+    font-size: 25px;
+}

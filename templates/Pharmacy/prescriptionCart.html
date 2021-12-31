@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Shopping Cart{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+<div class="search-container">
+  <form class="search-form" method="post">
+    {{ render_field(form.search, class="search-bar") }}
+    <button type="submit">
+      <i class="fa fa-search" style="font-size: 23px;"></i>
+    </button>
+  </form>
+      <a href="/shoppingCart" class="cart-button">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fshopping-cart-icon-transparent-20.png&f=1&nofb=1" height="35px">
+      </a>
+  {% if session['user'] != null %}
+    {% if session['user-role'] == "Admin" %}
+  <a class="create-button" href="/createItem"> + </a>
+  <a class="inventory-button" href="/inventory"> i </a>
+  {%endif%}
+  {%endif%}
+</div>
+
+<div class="sc-container">
+  <div class="sc-header">
+    <h2 class="sc-head-title">Prescription</h2>
+    <p class="sc-head-price">Dosage x Quantity</p>
+  </div>
+  {% for item in items_list %}
+    <div class="sc-item-container">
+      <div class="sc-item-picture-container">
+
+        <img class="sc-item-picture" src="{{ item.get_item_picture() }}">
+      </div>
+      <div class="sc-text-container">
+        <div class="sc-item-name-container">
+          <p class="sc-item-name">{{ item.get_item_name() }}</p>
+        </div>
+        <div class="sc-item-price-container">
+          <p class="sc-item-price">{{ item.get_item_dosage() }}</p>
+          <p class="sc-item-want">x {{ item.get_item_want() }}</p>
+        </div>
+        {% if session['user-role'] == 'Doctor' %}
+          <div class="sc-button-container">
+            <form action="{{url_for('remove_item', id=item.get_item_id())}}" method="POST">
+              <button class="sc-item-delete" type="submit">Delete</button>
+              |
+              <a class="sc-change-qty-button" href="/purchaseItem/{{ item.get_item_id() }}/">Change Qty</a>
+            </form>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="sc-checkout-container">
+  {% if count == 1 %}
+  <p class="sc-subtotal-price-text">Count (1 item):
+  </p>
+  {% else %}
+    <p class="sc-subtotal-price-text">Count ({{ count }} items):
+  </p>
+  {% endif %}
+  {% if session['user-role'] == 'Doctor' %}
+    <a href="/prescribe" class="sc-checkout">Prescribe</a>
+    <form action="{{url_for('clear_cart')}}" method="POST">
+      <button type="submit" class="sc-clear-cart">
+        Clear Prescription
+      </button>
+    </form>
+  {% elif session['user-role'] == 'Patient' %}
+    <form action="{{url_for('addPrescription')}}"  method="post">
+      <button type="submit" class="pres-addToCart">Add Prescription to Cart
+      </button>
+    </form>
+
+  {% endif %}
+</div>
+{% endblock %}
+

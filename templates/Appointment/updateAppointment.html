@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}NYP - Add Appointment{% endblock %}
+{%block content%}
+{% from "includes/_formhelper.html" import render_field %}
+
+  <h1 class="display-4">Update Appointment</h1>
+<form class="form-inline" method="POST" action="">
+    {%if session['user-role'] == "Admin" %}
+    <div class="form-group">
+    {{ render_field(form.Department, class="form-control mr-sm-2") }}
+  </div>
+    <div class="form-group">
+    {{ render_field(form.Type, class="form-control mr-sm-2") }}
+  </div>
+    <div class="form-group">
+        {{ render_field(form.Date, class="form-control mr-sm-2") }}
+      </div>
+      <div class="form-group ">
+        {{ render_field(form.Time, class="form-control mr-sm-2") }}
+      </div>
+    {%else%}
+
+    <div class="form-group">
+    {{ render_field(form.Department, class="form-control mr-sm-2",disabled=True) }}
+  </div>
+
+    <div class="form-group">
+    {{ render_field(form.Type, class="form-control mr-sm-2",disabled=True) }}
+  </div>
+       <div class="form-group">
+        {{ render_field(form.Date, class="form-control mr-sm-2") }}
+      </div>
+      <div class="form-group ">
+        {{ render_field(form.Time, class="form-control mr-sm-2") }}
+      </div>
+    <div class="invisible">
+    <div class="form-group">
+    {{ render_field(form.Department, class="form-control mr-sm-2") }}
+  </div>
+    <div class="form-group">
+    {{ render_field(form.Type, class="form-control mr-sm-2") }}
+  </div>
+    </div>
+    {%endif%}
+<a href="{{url_for('appointment')}}" class="btn btn-warning">Back</a>
+<input type="submit" value="Update" class="btn btn-primary"/>
+
+{%endblock%}

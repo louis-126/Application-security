@@ -1,0 +1,26 @@
+.nav-link:hover{
+    background:#87CEFA;
+}
+
+body{
+    background-color:#ffffff ;
+}
+
+.footer {
+   position: sticky;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #71c5e7;
+   color: white;
+   text-align: center;
+}
+
+.email{
+    color:white;
+    text-decoration:none;
+}
+
+span{
+     margin-right:50px;
+}

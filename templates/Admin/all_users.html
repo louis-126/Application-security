@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}NYP - Admin | All Users{% endblock %}
+{%block content%}
+{% from "includes/_formhelper.html" import render_field %}
+<div>
+    <a class="btn btn-info" href="{{url_for('showechart1')}}">User dashboard</a>
+</div><br>
+<table style="border-collapse: collapse; width: 100%;margin-top:20px;">
+    <tr style="nth-child(even){background-color: #f2f2f2}">
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">NRIC</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">Name</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">Gender</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">DoB</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">Email</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">Role</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">Specialisation</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">URL</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">Update</th>
+        <th style="background-color: #4CAF50; color: white;text-align: left; padding: 8px;">Delete</th>
+    </tr>
+    {%for user in all_users%}
+    <tr style="nth-child(even){background-color: #f2f2f2}">
+        <td style="text-align: left;padding: 8px;">{{user.get_NRIC()}}</td>
+        <td style="text-align: left;padding: 8px;">{{user.get_name()}}</td>
+        <td style="text-align: left;padding: 8px;">{{user.get_gender()}}</td>
+        <td style="text-align: left;padding: 8px;">{{user.get_dob()}}</td>
+        <td style="text-align: left;padding: 8px;">{{user.get_email()}}</td>
+        <td style="text-align: left;padding: 8px;">{{user.get_role()}}</td>
+
+        {% if user.get_role() == "Patient" %}
+        <td style="text-align: left;padding: 8px;">Not Available </td>
+        <td style="text-align: left;padding: 8px;">Not Available </td>
+        {%endif%}
+
+        {% if user.get_role() == "Doctor" %}
+        <td style="text-align: left;padding: 8px;">{{user.get_specialization()}}</td>
+        <td style="text-align: left;padding: 8px;">{{user.get_url()}}</td>
+        {%endif%}
+
+        <td style="text-align: left;padding: 8px;"><a href="{{url_for('admin_update', uid=user.get_NRIC())}}">Update</a></td>
+        <td style="text-align: left;padding: 8px;"><a href="{{url_for('admin_delete', uid=user.get_NRIC())}}">Delete</a></td>
+    </tr>
+    {%endfor%}
+</table>
+
+<input type="button" onclick="location.href='{{url_for('add_doctor')}}'" value="Add doctor">
+{%endblock%}

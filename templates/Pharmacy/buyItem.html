@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Nanyang Polyclinic - Purchase Item{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+
+<div class="buy-item-container">
+  <div class="buy-item-name-container">
+    <p class="buy-item-name"> {{ name }} </p>
+  </div>
+  <hr>
+  <div class="buy-item-picture-container">
+    <img class="buy-item-picture" src="{{ picture }}">
+  </div>
+  <div class="buy-item-bio-container">
+    <p class="buy-item-bio-text">Item Details:</p>
+    <p class="buy-item-bio">{{ bio }}</p>
+  </div>
+  <div class="buy-item-price-container">
+    <p class="buy-item-price">${{ price }}</p>
+  </div>
+  <hr class="buy-item-bio-divider">
+  <form class="buy-item-form" method="POST" action="">
+    <div class="buy-item-form-want-field-container">
+      {{ render_field(form.want, class="buy-item-form-want-field") }}
+    </div>
+    <div class="buy-item-buttons-container">
+      <input type="submit" value="Add To Cart" class="buy-item-add-to-cart"/>
+      <a href="/pharmacy" class="buy-item-cancel">Cancel</a>
+    </div>
+  </form>
+  <div class="buy-item-stock-container">
+    {% if have == 0 %}
+          <p class="pharma-item-have-low">Out of Stock</p>
+    {% elif have <= 100 %}
+      <p class="buy-item-stock-low">Available: {{ have }}</p>
+    {% else %}
+      <p class="buy-item-stock-high">Available: {{ have }}</p>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

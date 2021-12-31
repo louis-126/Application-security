@@ -1,0 +1,278 @@
+{% extends "base.html" %}
+{% block title %}NYP - Login{% endblock %}
+{%block content%}
+{% from "includes/_formhelper.html" import render_field %}
+<style>
+
+h1,
+h2 {
+  font-weight: 500;
+  margin: 0px 0px 5px 0px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 16px;
+}
+h1 {
+  font-size: 30px;
+}
+p {
+  margin: 0px;
+}
+
+.profile-card {
+  background: #FF5722;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: 70px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  animation: init 1.5s 0.2s cubic-bezier(0.55, 0.055, 0.275, 0.19) forwards, materia 0.5s .9s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+}
+.profile-card header {
+  width: 310px;
+  height: 280px;
+  padding: 50px 0px 10px 0px;
+  display: inline-block;
+  float: left;
+  border-right: 2px dashed #EEEEEE;
+  background: #FFFFFF;
+  margin-top: 50px;
+  opacity: 0;
+  text-align:left;
+  margin-left:10px;
+  animation: moveIn 1s 1.5s ease forwards;
+}
+
+.profile-card header h1 {
+  color: #fdbbaf;
+}
+
+.profile-card header a {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: -15px 20px;
+}
+
+.profile-card header a > img {
+  max-width: 100%;
+}
+
+.profile-card header a:after {
+  position: absolute;
+  content: "$500";
+  bottom: 3px;
+  right: 3px;
+  padding: 10px 5px;
+  border: 4px solid #FFFFFF;
+  transform: scale(0);
+  background: linear-gradient(#FF5722 0%, #FF5722 50%, #FF5722 50%, #FF5722 100%);
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  animation: scaleIn 1.3s 1.5s ease forwards;
+}
+
+.profile-card .update-info {
+  width: 45%;
+  height: 45%;
+  display: inline-block;
+  float: left;
+  padding: 50px 20px 30px 20px;
+  background: #FFFFFF;
+  margin-top: 50px;
+  text-align: left;
+  opacity: 0;
+  animation: moveIn 1s 1s ease forwards;
+}
+.label1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  line-height: 26px;
+  margin-bottom:10px;
+
+}
+
+.input1 {
+  height: 30px;
+  margin-left: 10px;
+}
+
+@keyframes init {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+  100% {
+    width: 36px;
+    height: 36px;
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes materia {
+  0% {
+    background: #E0E0E0;
+  }
+  50% {
+    border-radius: 4px;
+  }
+  100% {
+    width: 750px;
+    height: 500px;
+    background: #FFFFFF;
+    border-radius: 4px;
+  }
+}
+
+@keyframes moveIn {
+  0% {
+    margin-top: 50px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-aspect-ratio: 4/3) {
+  @ -webkit-keyframes puff {
+    0% {
+      top: 100%;
+      width: 0px;
+      padding-bottom: 0px;
+    }
+    100% {
+      top: 50%;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
+  @keyframes puff {
+    0% {
+      top: 100%;
+      width: 0px;
+      padding-bottom: 0px;
+    }
+    100% {
+      top: 50%;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .profile-card header {
+    width: auto;
+    height: auto;
+    padding: 45px 0 30px 0;
+    display: block;
+    float: none;
+    border-right: none;
+  }
+
+  .profile-card header a > img {
+    width: 150px;
+  }
+
+  .profile-card .update-info {
+    width: auto;
+    height: auto;
+    padding: 0px 20px 30px 20px;
+    display: block;
+    float: none;
+  }
+
+  @keyframes materia {
+    0% {
+      background: #E0E0E0;
+    }
+    50% {
+      border-radius: 4px;
+    }
+    100% {
+      width: 90%;
+      height: 90%;
+      background: #FFFFFF;
+      border-radius: 4px;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .profile-card header a >i{
+    width: 100px;
+  }
+
+  .profile-card .update-info {
+    width: auto;
+    height: auto;
+    padding: 0px 10px 10px 10px;
+    display: block;
+    float: none;
+  }
+
+  @keyframes materia {
+    0% {
+      background: #E0E0E0;
+    }
+    50% {
+      border-radius: 4px;
+    }
+    100% {
+      width: 95%;
+      height: 95%;
+      background: #FFFFFF;
+      border-radius: 4px;
+    }
+  }
+}
+img {
+  border-radius: 50%;
+}
+</style>
+<aside class="profile-card">
+<header>
+    <a style="font-size:7em;margin-top:5px;margin-left:90px;"></i>
+    </a>
+    <img src="https://media-exp1.licdn.com/dms/image/C510BAQHwImgI6QnJLw/company-logo_200_200/0/1536892103042?e=2159024400&v=beta&t=mqsU-edXGh3QwcADEFMY9e4iqOUc0RnWotsiIFGmu80" alt="Paris" width="300" height="300"></header>
+<div class="update-info">
+<h1 class="display-4" style="text-align:center;">Login</h1>
+<form autocomplete="off" method="POST" action="{{url_for('login')}}">
+   <div class="form-group">
+    {{ render_field(form.NRIC, class="form-control") }}
+  </div>
+  <div class="form-group">
+    {{ render_field(form.Password, class="form-control") }}
+  </div>
+    <!-- New and that CSS (in picture) -->
+   <div class="form-group">
+    {{ render_field(form.recaptcha, class="form-control") }}
+  </div>
+
+<input type="submit" value="Login" class="btn btn-primary"/>
+</form>
+<div>
+    <p class="text-muted">No account yet? <a class="text-info" href="{{url_for('register')}}">Sign up Here!</a> </p>
+    <p class="text-muted">Forgot Password? <a class="text-info" href="{{url_for('reset_password')}}">Password Reset</a> </p>
+</div></div>
+</aside>
+{%endblock%}

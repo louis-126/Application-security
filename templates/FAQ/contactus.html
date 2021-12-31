@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %} Contact us{% endblock %}
+
+
+{% block content %}
+<!-- to alert the user that the form has been successfully send after clicking the submit button-->
+{% from "includes/_formHelper.html" import render_field %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/contactus.css') }}">
+<h3>Contact Us</h3>
+    <div class="content">
+        <form autocomplete="off" method='POST' action="#">
+            {{ form.hidden_tag() }}
+            <div class="form float-right text-left">
+            <fieldset class="form-group">
+                <div class="form-group" >
+                    {{ render_field(form.name,class="form-control") }}
+                </div>
+                <div class="form-group" id="'email">
+                    {{ render_field(form.email, class="form-control") }}
+                </div>
+                <div class="form-group" id="subject">
+                    {{ render_field(form.subject, class="form-control") }}
+                </div>
+                <div class="form-group" id="enquiries">
+                    {{ render_field(form.enquiries , class="form-control") }}
+                </div>
+            <input type="submit" value="Submit" class="btn btn-primary">
+            </fieldset>
+        </div>
+        </form>
+    </div>
+
+    <div class="text text-left">
+        <h5>Appointment Department</h5>
+        <p><img class="icon" src="https://i.pinimg.com/originals/6d/82/19/6d8219712f1d593770ccae423ffa6516.jpg" alt="">+65 8132 5467</p>
+        <p>
+            <img class="icon" src="data:image/png;base64,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" alt="">
+            <a href="mailto:NYPClinic@appointment.com">NYPClinic@appointment.com</a>
+        </p>
+    </div>
+   <div class="text text-left">
+        <h5>Pharmacy Department</h5>
+        <p><img class="icon" src="https://i.pinimg.com/originals/6d/82/19/6d8219712f1d593770ccae423ffa6516.jpg" alt="">+65 8132 5468</p>
+        <p>
+            <img class="icon" src="data:image/png;base64,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" alt="">
+            <a href="mailto:NYPClinic@pharmacy.com">NYPClinic@pharmacy.com</a>
+        </p>
+    </div>
+    <div class="text text-left">
+        <h5>Application Department</h5>
+        <p><img class="icon" src="https://i.pinimg.com/originals/6d/82/19/6d8219712f1d593770ccae423ffa6516.jpg" alt="">+65 8132 5469</p>
+        <p>
+            <img class="icon" src="data:image/png;base64,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" alt="">
+            <a href="mailto:NYPClinic@applicationform.com">NYPClinic@applicationform.com</a>
+        </p>
+    </div>
+
+{% endblock %}
